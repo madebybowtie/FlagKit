@@ -18,7 +18,7 @@ UIImage(named: NSLocale.autoupdatingCurrentLocale().objectForKey(NSLocaleCountry
 ## License
 
 FlagKit is released under the MIT license. See
-[LICENSE.md](https://github.com/madebybowtie/FlagKit/blob/master/LICENSE.md).
+[LICENSE.md](https://github.com/madebybowtie/FlagKit/blob/master/LICENSE).
 
 ## More Info
 
