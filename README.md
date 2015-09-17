@@ -1,8 +1,6 @@
-# FlagKit ![SE](https://github.com/madebybowtie/FlagKit/blob/master/iOS/SE@2x.png)
+# FlagKit ![SE](https://github.com/madebybowtie/FlagKit/blob/master/Images/SE@2x.png)
 
 Beautiful flag icons for usage in apps and on the web.
-
-All icons are exported from the provided sketch-file.
 
 ## Usage iOS
 
@@ -23,3 +21,7 @@ FlagKit is released under the MIT license. See
 ## More Info
 
 Have a question? Please [open an issue](https://github.com/madebybowtie/FlagKit/issues/new)!
+
+## Reference
+
+
