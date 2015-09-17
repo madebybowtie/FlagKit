@@ -1,4 +1,4 @@
-# FlagKit
+# FlagKit ![SE](https://github.com/madebybowtie/FlagKit/blob/master/iOS/SE@2x.png)
 
 Beautiful flag icons for usage in apps and on the web.
 
@@ -12,7 +12,7 @@ All icons are exported from the provided sketch-file.
 UIImage(named: NSLocale.autoupdatingCurrentLocale().objectForKey(NSLocaleCountryCode) as! String)
 ```
 ```objc
-  [UIImage imageNamed:[[NSLocale autoupdatingCurrentLocale] objectForKey:NSLocaleCountryCode]];
+[UIImage imageNamed:[[NSLocale autoupdatingCurrentLocale] objectForKey:NSLocaleCountryCode]];
 ```
 
 ## License
