@@ -2,7 +2,7 @@
 
 Beautiful flag icons for usage in apps and on the web.
 
-## Usage iOS
+## iOS
 
 1. Add ```FlagKit.xcassets``` to your target.
 2. Get an icon for your locale:
@@ -12,6 +12,10 @@ UIImage(named: NSLocale.autoupdatingCurrentLocale().objectForKey(NSLocaleCountry
 ```objc
 [UIImage imageNamed:[[NSLocale autoupdatingCurrentLocale] objectForKey:NSLocaleCountryCode]];
 ```
+
+## Sketch
+
+To be able to open the Sketch-file, please use the [Sketch Beta](http://www.bohemiancoding.com/sketch/beta/).
 
 ## License
 
