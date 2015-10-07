@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		F4CEA25A1BB1233300CFBC87 /* FlagKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F4CEA2591BB1233300CFBC87 /* FlagKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4DC1CA31BB124910052A411 /* FlagKit.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DC1CA21BB124910052A411 /* FlagKit.xcassets */; settings = {ASSET_TAGS = (); }; };
-		F4DC1CA51BB1252C0052A411 /* UIImage+FlagKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC1CA41BB1252C0052A411 /* UIImage+FlagKit.swift */; settings = {ASSET_TAGS = (); }; };
+		F4DC1CA51BB1252C0052A411 /* FlagKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC1CA41BB1252C0052A411 /* FlagKit.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,7 +17,7 @@
 		F4CEA2591BB1233300CFBC87 /* FlagKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlagKit.h; sourceTree = "<group>"; };
 		F4CEA25B1BB1233300CFBC87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4DC1CA21BB124910052A411 /* FlagKit.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FlagKit.xcassets; sourceTree = SOURCE_ROOT; };
-		F4DC1CA41BB1252C0052A411 /* UIImage+FlagKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+FlagKit.swift"; sourceTree = "<group>"; };
+		F4DC1CA41BB1252C0052A411 /* FlagKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 				F4DC1CA21BB124910052A411 /* FlagKit.xcassets */,
 				F4CEA2591BB1233300CFBC87 /* FlagKit.h */,
 				F4CEA25B1BB1233300CFBC87 /* Info.plist */,
-				F4DC1CA41BB1252C0052A411 /* UIImage+FlagKit.swift */,
+				F4DC1CA41BB1252C0052A411 /* FlagKit.swift */,
 			);
 			path = FlagKit;
 			sourceTree = "<group>";
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4DC1CA51BB1252C0052A411 /* UIImage+FlagKit.swift in Sources */,
+				F4DC1CA51BB1252C0052A411 /* FlagKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
