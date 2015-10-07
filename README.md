@@ -28,7 +28,12 @@ Have a question? Please [open an issue](https://github.com/madebybowtie/FlagKit/
 
 ## Reference
 
-This set currentry includes the 178 flags below:
+This set currentry includes the 181 flags below:
+
+| Flag | Code | Region |
+| :-------------: | :-------------: | ------------- |
+| ![AD](https://github.com/madebybowtie/FlagKit/blob/master/Images/EU@2x.png) | EU | European Union |
+| ![AE](https://github.com/madebybowtie/FlagKit/blob/master/Images/WW@2x.png) | WW | World |
 
 
 | Flag | Code | Country |
@@ -67,6 +72,7 @@ This set currentry includes the 178 flags below:
 | ![CF](https://github.com/madebybowtie/FlagKit/blob/master/Images/CF@2x.png) | CF | Central African Republic |
 | ![CG](https://github.com/madebybowtie/FlagKit/blob/master/Images/CG@2x.png) | CG | Congo - Brazzaville |
 | ![CH](https://github.com/madebybowtie/FlagKit/blob/master/Images/CH@2x.png) | CH | Switzerland |
+| ![CH](https://github.com/madebybowtie/FlagKit/blob/master/Images/CH2@2x.png) | CH2 | Switzerland |
 | ![CI](https://github.com/madebybowtie/FlagKit/blob/master/Images/CI@2x.png) | CI | Côte d’Ivoire |
 | ![CL](https://github.com/madebybowtie/FlagKit/blob/master/Images/CL@2x.png) | CL | Chile |
 | ![CM](https://github.com/madebybowtie/FlagKit/blob/master/Images/CM@2x.png) | CM | Cameroon |
