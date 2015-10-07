@@ -3,7 +3,7 @@
 Beautiful flag icons for usage in apps and on the web.
 
 ## iOS
-
+### Without dependency management
 1. Add ```FlagKit.xcassets``` to your target.
 2. Get an icon for your locale:
 ```swift
@@ -11,6 +11,18 @@ UIImage(named: NSLocale.autoupdatingCurrentLocale().objectForKey(NSLocaleCountry
 ```
 ```objc
 [UIImage imageNamed:[[NSLocale autoupdatingCurrentLocale] objectForKey:NSLocaleCountryCode]];
+```
+### [Carthage](https://github.com/Carthage/Carthage)
+ 1. Add FlagKit to your `Cartfile`:
+```
+github "madebybowtie/FlagKit"
+```
+2.
+```swift
+UIImage(flagImageWithCountryCode: NSLocale.autoupdatingCurrentLocale().objectForKey(NSLocaleCountryCode) as! String)
+```
+```objc
+[UIImage flagImageWithCountryCode:[[NSLocale autoupdatingCurrentLocale] objectForKey:NSLocaleCountryCode]];
 ```
 
 ## Sketch
