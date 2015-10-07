@@ -13,11 +13,11 @@ UIImage(named: NSLocale.autoupdatingCurrentLocale().objectForKey(NSLocaleCountry
 [UIImage imageNamed:[[NSLocale autoupdatingCurrentLocale] objectForKey:NSLocaleCountryCode]];
 ```
 ### [Carthage](https://github.com/Carthage/Carthage)
- 1. Add FlagKit to your `Cartfile`:
+1. Add FlagKit to your `Cartfile`:
 ```
 github "madebybowtie/FlagKit"
 ```
-2.
+2. Get an icon for your locale:
 ```swift
 UIImage(flagImageWithCountryCode: NSLocale.autoupdatingCurrentLocale().objectForKey(NSLocaleCountryCode) as! String)
 ```
