@@ -120,7 +120,7 @@ This set currentry includes the 183 flags below:
 | ![GR](https://github.com/madebybowtie/FlagKit/blob/master/Images/GR@2x.png) | GR | Greece |
 | ![GT](https://github.com/madebybowtie/FlagKit/blob/master/Images/GT@2x.png) | GT | Guatemala |
 | ![GW](https://github.com/madebybowtie/FlagKit/blob/master/Images/GW@2x.png) | GW | Guinea-Bissau |
-| ![HN](https://github.com/madebybowtie/FlagKit/blob/master/Images/HN@2x.png) | HK | Hong Kong |
+| ![HN](https://github.com/madebybowtie/FlagKit/blob/master/Images/HK@2x.png) | HK | Hong Kong |
 | ![HN](https://github.com/madebybowtie/FlagKit/blob/master/Images/HN@2x.png) | HN | Honduras |
 | ![HR](https://github.com/madebybowtie/FlagKit/blob/master/Images/HR@2x.png) | HR | Croatia |
 | ![HT](https://github.com/madebybowtie/FlagKit/blob/master/Images/HT@2x.png) | HT | Haiti |
