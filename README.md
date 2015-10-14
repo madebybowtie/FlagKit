@@ -40,7 +40,7 @@ Have a question? Please [open an issue](https://github.com/madebybowtie/FlagKit/
 
 ## Reference
 
-This set currentry includes the 183 flags below:
+This set currentry includes the 184 flags below:
 
 | Flag | Code | Region |
 | :-------------: | :-------------: | ------------- |
