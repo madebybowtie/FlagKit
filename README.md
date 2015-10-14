@@ -29,11 +29,6 @@ UIImage(flagImageWithCountryCode: NSLocale.autoupdatingCurrentLocale().objectFor
 
 To be able to open the Sketch-file, please use the [Sketch Beta](http://www.bohemiancoding.com/sketch/beta/).
 
-## License
-
-FlagKit is released under the MIT license. See
-[LICENSE](https://github.com/madebybowtie/FlagKit/blob/master/LICENSE).
-
 ## More Info
 
 Have a question? Please [open an issue](https://github.com/madebybowtie/FlagKit/issues/new)!
@@ -232,3 +227,8 @@ This set currentry includes the 184 flags below:
 | ![WS](https://github.com/madebybowtie/FlagKit/blob/master/Images/WS@2x.png) | WS | Samoa |
 | ![YE](https://github.com/madebybowtie/FlagKit/blob/master/Images/YE@2x.png) | YE | Yemen |
 | ![ZA](https://github.com/madebybowtie/FlagKit/blob/master/Images/ZA@2x.png) | ZA | South Africa |
+
+## License
+
+FlagKit is released under the MIT license. See
+[LICENSE](https://github.com/madebybowtie/FlagKit/blob/master/LICENSE).
