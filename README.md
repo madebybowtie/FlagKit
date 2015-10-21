@@ -18,10 +18,11 @@ pod 'FlagKit'
 
 ## Usage (iOS/OSX)
 For OSX, just replace `UIImage` with `NSImage` below
+
 Get an icon for your locale or a world flag:
 ```swift
 UIImage(flagImageWithCountryCode: NSLocale.autoupdatingCurrentLocale().objectForKey(NSLocaleCountryCode) as! String)
-UIImage(flagImageForSpecial: .World)
+UIImage(flagImageForSpecialFlag: .World)
 ```
 ```objc
 [UIImage flagImageWithCountryCode:[[NSLocale autoupdatingCurrentLocale] objectForKey:NSLocaleCountryCode]];
