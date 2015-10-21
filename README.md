@@ -2,27 +2,31 @@
 
 Beautiful flag icons for usage in apps and on the web.
 
-## iOS
-### Without dependency management
-1. Add ```FlagKit.xcassets``` to your target.
-2. Get an icon for your locale:
+## Installation (iOS/OSX)
+#### `FlagKit.xcassets`
+Just add `FlagKit.xcassets` to your target.
+#### Carthage
+Add FlagKit to your `Cartfile`:
+```
+github "madebybowtie/FlagKit"
+```
+
+## Usage (iOS/OSX)
+For OSX, just replace `UIImage` with `NSImage` below
+Get an icon for your locale or a world flag:
+```swift
+UIImage(flagImageWithCountryCode: NSLocale.autoupdatingCurrentLocale().objectForKey(NSLocaleCountryCode) as! String)
+UIImage(flagImageForSpecial: .World)
+```
+```objc
+[UIImage flagImageWithCountryCode:[[NSLocale autoupdatingCurrentLocale] objectForKey:NSLocaleCountryCode]];
+```
+If you are just adding `FlagKit.xcassets` to you target, you can simply use the standard `UIImage/NSImage` methods:
 ```swift
 UIImage(named: NSLocale.autoupdatingCurrentLocale().objectForKey(NSLocaleCountryCode) as! String)
 ```
 ```objc
 [UIImage imageNamed:[[NSLocale autoupdatingCurrentLocale] objectForKey:NSLocaleCountryCode]];
-```
-### [Carthage](https://github.com/Carthage/Carthage)
-1. Add FlagKit to your `Cartfile`:
-```
-github "madebybowtie/FlagKit"
-```
-2. Get an icon for your locale:
-```swift
-UIImage(flagImageWithCountryCode: NSLocale.autoupdatingCurrentLocale().objectForKey(NSLocaleCountryCode) as! String)
-```
-```objc
-[UIImage flagImageWithCountryCode:[[NSLocale autoupdatingCurrentLocale] objectForKey:NSLocaleCountryCode]];
 ```
 
 ## Sketch
