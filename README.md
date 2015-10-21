@@ -10,6 +10,11 @@ Add FlagKit to your `Cartfile`:
 ```
 github "madebybowtie/FlagKit"
 ```
+#### Cocoapods
+Add FlagKit to your `Podfile`:
+```
+pod 'FlagKit'
+```
 
 ## Usage (iOS/OSX)
 For OSX, just replace `UIImage` with `NSImage` below
