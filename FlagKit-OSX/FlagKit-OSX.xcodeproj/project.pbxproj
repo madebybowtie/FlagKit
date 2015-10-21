@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F4CEA25A1BB1233300CFBC87 /* FlagKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F4CEA2591BB1233300CFBC87 /* FlagKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4DC1CA31BB124910052A411 /* FlagKit.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DC1CA21BB124910052A411 /* FlagKit.xcassets */; settings = {ASSET_TAGS = (); }; };
-		F4DC1CA51BB1252C0052A411 /* FlagKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC1CA41BB1252C0052A411 /* FlagKit.swift */; settings = {ASSET_TAGS = (); }; };
+		F46199081BD7B576001260A9 /* FlagKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F46199071BD7B576001260A9 /* FlagKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F46199101BD7B735001260A9 /* FlagKit.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F461990F1BD7B735001260A9 /* FlagKit.xcassets */; settings = {ASSET_TAGS = (); }; };
+		F46199161BD7B754001260A9 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46199151BD7B754001260A9 /* NSImage.swift */; settings = {ASSET_TAGS = (); }; };
+		F46199181BD7B75A001260A9 /* FlagKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46199171BD7B75A001260A9 /* FlagKit.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F4CEA2561BB1233300CFBC87 /* FlagKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlagKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4CEA2591BB1233300CFBC87 /* FlagKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlagKit.h; sourceTree = "<group>"; };
-		F4CEA25B1BB1233300CFBC87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4DC1CA21BB124910052A411 /* FlagKit.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FlagKit.xcassets; sourceTree = SOURCE_ROOT; };
-		F4DC1CA41BB1252C0052A411 /* FlagKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagKit.swift; sourceTree = "<group>"; };
+		F46199041BD7B576001260A9 /* FlagKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlagKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46199071BD7B576001260A9 /* FlagKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlagKit.h; sourceTree = "<group>"; };
+		F46199091BD7B576001260A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F461990F1BD7B735001260A9 /* FlagKit.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = FlagKit.xcassets; path = ../../FlagKit.xcassets; sourceTree = "<group>"; };
+		F46199151BD7B754001260A9 /* NSImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
+		F46199171BD7B75A001260A9 /* FlagKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlagKit.swift; path = "../../FlagKit-Common/FlagKit.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F4CEA2521BB1233300CFBC87 /* Frameworks */ = {
+		F46199001BD7B576001260A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,29 +33,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F4CEA24C1BB1233300CFBC87 = {
+		F46198FA1BD7B576001260A9 = {
 			isa = PBXGroup;
 			children = (
-				F4CEA2581BB1233300CFBC87 /* FlagKit */,
-				F4CEA2571BB1233300CFBC87 /* Products */,
+				F46199061BD7B576001260A9 /* FlagKit */,
+				F46199051BD7B576001260A9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F4CEA2571BB1233300CFBC87 /* Products */ = {
+		F46199051BD7B576001260A9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4CEA2561BB1233300CFBC87 /* FlagKit.framework */,
+				F46199041BD7B576001260A9 /* FlagKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F4CEA2581BB1233300CFBC87 /* FlagKit */ = {
+		F46199061BD7B576001260A9 /* FlagKit */ = {
 			isa = PBXGroup;
 			children = (
-				F4DC1CA21BB124910052A411 /* FlagKit.xcassets */,
-				F4CEA2591BB1233300CFBC87 /* FlagKit.h */,
-				F4CEA25B1BB1233300CFBC87 /* Info.plist */,
-				F4DC1CA41BB1252C0052A411 /* FlagKit.swift */,
+				F46199171BD7B75A001260A9 /* FlagKit.swift */,
+				F46199151BD7B754001260A9 /* NSImage.swift */,
+				F461990F1BD7B735001260A9 /* FlagKit.xcassets */,
+				F46199071BD7B576001260A9 /* FlagKit.h */,
+				F46199091BD7B576001260A9 /* Info.plist */,
 			);
 			path = FlagKit;
 			sourceTree = "<group>";
@@ -61,25 +64,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F4CEA2531BB1233300CFBC87 /* Headers */ = {
+		F46199011BD7B576001260A9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4CEA25A1BB1233300CFBC87 /* FlagKit.h in Headers */,
+				F46199081BD7B576001260A9 /* FlagKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F4CEA2551BB1233300CFBC87 /* FlagKit */ = {
+		F46199031BD7B576001260A9 /* FlagKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4CEA25E1BB1233300CFBC87 /* Build configuration list for PBXNativeTarget "FlagKit" */;
+			buildConfigurationList = F461990C1BD7B576001260A9 /* Build configuration list for PBXNativeTarget "FlagKit" */;
 			buildPhases = (
-				F4CEA2511BB1233300CFBC87 /* Sources */,
-				F4CEA2521BB1233300CFBC87 /* Frameworks */,
-				F4CEA2531BB1233300CFBC87 /* Headers */,
-				F4CEA2541BB1233300CFBC87 /* Resources */,
+				F46198FF1BD7B576001260A9 /* Sources */,
+				F46199001BD7B576001260A9 /* Frameworks */,
+				F46199011BD7B576001260A9 /* Headers */,
+				F46199021BD7B576001260A9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -87,65 +90,66 @@
 			);
 			name = FlagKit;
 			productName = FlagKit;
-			productReference = F4CEA2561BB1233300CFBC87 /* FlagKit.framework */;
+			productReference = F46199041BD7B576001260A9 /* FlagKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F4CEA24D1BB1233300CFBC87 /* Project object */ = {
+		F46198FB1BD7B576001260A9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Bowtie;
 				TargetAttributes = {
-					F4CEA2551BB1233300CFBC87 = {
+					F46199031BD7B576001260A9 = {
 						CreatedOnToolsVersion = 7.0;
 					};
 				};
 			};
-			buildConfigurationList = F4CEA2501BB1233300CFBC87 /* Build configuration list for PBXProject "FlagKit" */;
+			buildConfigurationList = F46198FE1BD7B576001260A9 /* Build configuration list for PBXProject "FlagKit-OSX" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = F4CEA24C1BB1233300CFBC87;
-			productRefGroup = F4CEA2571BB1233300CFBC87 /* Products */;
+			mainGroup = F46198FA1BD7B576001260A9;
+			productRefGroup = F46199051BD7B576001260A9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4CEA2551BB1233300CFBC87 /* FlagKit */,
+				F46199031BD7B576001260A9 /* FlagKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F4CEA2541BB1233300CFBC87 /* Resources */ = {
+		F46199021BD7B576001260A9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4DC1CA31BB124910052A411 /* FlagKit.xcassets in Resources */,
+				F46199101BD7B735001260A9 /* FlagKit.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F4CEA2511BB1233300CFBC87 /* Sources */ = {
+		F46198FF1BD7B576001260A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4DC1CA51BB1252C0052A411 /* FlagKit.swift in Sources */,
+				F46199181BD7B75A001260A9 /* FlagKit.swift in Sources */,
+				F46199161BD7B754001260A9 /* NSImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F4CEA25C1BB1233300CFBC87 /* Debug */ = {
+		F461990A1BD7B576001260A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -162,7 +166,6 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -182,18 +185,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		F4CEA25D1BB1233300CFBC87 /* Release */ = {
+		F461990B1BD7B576001260A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -210,7 +212,6 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -224,46 +225,48 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				SDKROOT = macosx;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		F4CEA25F1BB1233300CFBC87 /* Debug */ = {
+		F461990D1BD7B576001260A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = FlagKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.madebybowtie.FlagKit-iOS";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madebybowtie.FlagKit-OSX";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		F4CEA2601BB1233300CFBC87 /* Release */ = {
+		F461990E1BD7B576001260A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = FlagKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.madebybowtie.FlagKit-iOS";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madebybowtie.FlagKit-OSX";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -272,25 +275,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F4CEA2501BB1233300CFBC87 /* Build configuration list for PBXProject "FlagKit" */ = {
+		F46198FE1BD7B576001260A9 /* Build configuration list for PBXProject "FlagKit-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4CEA25C1BB1233300CFBC87 /* Debug */,
-				F4CEA25D1BB1233300CFBC87 /* Release */,
+				F461990A1BD7B576001260A9 /* Debug */,
+				F461990B1BD7B576001260A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4CEA25E1BB1233300CFBC87 /* Build configuration list for PBXNativeTarget "FlagKit" */ = {
+		F461990C1BD7B576001260A9 /* Build configuration list for PBXNativeTarget "FlagKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4CEA25F1BB1233300CFBC87 /* Debug */,
-				F4CEA2601BB1233300CFBC87 /* Release */,
+				F461990D1BD7B576001260A9 /* Debug */,
+				F461990E1BD7B576001260A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F4CEA24D1BB1233300CFBC87 /* Project object */;
+	rootObject = F46198FB1BD7B576001260A9 /* Project object */;
 }

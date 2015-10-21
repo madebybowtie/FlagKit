@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F4CEA2551BB1233300CFBC87"
+               BlueprintIdentifier = "F46199031BD7B576001260A9"
                BuildableName = "FlagKit.framework"
                BlueprintName = "FlagKit"
-               ReferencedContainer = "container:FlagKit.xcodeproj">
+               ReferencedContainer = "container:FlagKit-OSX.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F4CEA2551BB1233300CFBC87"
+            BlueprintIdentifier = "F46199031BD7B576001260A9"
             BuildableName = "FlagKit.framework"
             BlueprintName = "FlagKit"
-            ReferencedContainer = "container:FlagKit.xcodeproj">
+            ReferencedContainer = "container:FlagKit-OSX.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F4CEA2551BB1233300CFBC87"
+            BlueprintIdentifier = "F46199031BD7B576001260A9"
             BuildableName = "FlagKit.framework"
             BlueprintName = "FlagKit"
-            ReferencedContainer = "container:FlagKit.xcodeproj">
+            ReferencedContainer = "container:FlagKit-OSX.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

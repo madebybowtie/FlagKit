@@ -2,11 +2,11 @@
 //  FlagKit.h
 //  FlagKit
 //
-//  Created by Simon Blommegård on 22/09/15.
+//  Created by Simon Blommegård on 21/10/15.
 //  Copyright © 2015 Bowtie. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Cocoa/Cocoa.h>
 
 //! Project version number for FlagKit.
 FOUNDATION_EXPORT double FlagKitVersionNumber;
