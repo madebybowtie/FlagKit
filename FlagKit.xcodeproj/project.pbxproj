@@ -7,12 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B1BA0961BD777440011A23B /* FlagKit-OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B1BA0951BD777440011A23B /* FlagKit-OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B1BA09B1BD777C00011A23B /* FlagKit.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DC1CA21BB124910052A411 /* FlagKit.xcassets */; };
+		0B1BA09C1BD777C90011A23B /* FlagKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC1CA41BB1252C0052A411 /* FlagKit.swift */; };
+		0B1BA09E1BD778840011A23B /* FlagKitOSX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1BA09D1BD778840011A23B /* FlagKitOSX.swift */; settings = {ASSET_TAGS = (); }; };
+		0B1BA0A01BD7788E0011A23B /* FlagKitiOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1BA09F1BD7788E0011A23B /* FlagKitiOS.swift */; settings = {ASSET_TAGS = (); }; };
+		0B1BA0FD1BD78CB40011A23B /* NSImage+FakeInit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B1BA0FB1BD78CB40011A23B /* NSImage+FakeInit.h */; settings = {ASSET_TAGS = (); }; };
+		0B1BA0FE1BD78CB40011A23B /* NSImage+FakeInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1BA0FC1BD78CB40011A23B /* NSImage+FakeInit.m */; settings = {ASSET_TAGS = (); }; };
 		F4CEA25A1BB1233300CFBC87 /* FlagKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F4CEA2591BB1233300CFBC87 /* FlagKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4DC1CA31BB124910052A411 /* FlagKit.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DC1CA21BB124910052A411 /* FlagKit.xcassets */; settings = {ASSET_TAGS = (); }; };
 		F4DC1CA51BB1252C0052A411 /* FlagKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC1CA41BB1252C0052A411 /* FlagKit.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B1BA0931BD777440011A23B /* FlagKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlagKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B1BA0951BD777440011A23B /* FlagKit-OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlagKit-OSX.h"; sourceTree = "<group>"; };
+		0B1BA0971BD777440011A23B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B1BA09D1BD778840011A23B /* FlagKitOSX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagKitOSX.swift; sourceTree = "<group>"; };
+		0B1BA09F1BD7788E0011A23B /* FlagKitiOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagKitiOS.swift; sourceTree = "<group>"; };
+		0B1BA0FB1BD78CB40011A23B /* NSImage+FakeInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+FakeInit.h"; sourceTree = "<group>"; };
+		0B1BA0FC1BD78CB40011A23B /* NSImage+FakeInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+FakeInit.m"; sourceTree = "<group>"; };
+		0B1BA0FF1BD78D920011A23B /* FlagKit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlagKit-Bridging-Header.h"; sourceTree = "<group>"; };
 		F4CEA2561BB1233300CFBC87 /* FlagKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlagKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4CEA2591BB1233300CFBC87 /* FlagKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlagKit.h; sourceTree = "<group>"; };
 		F4CEA25B1BB1233300CFBC87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -21,6 +36,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0B1BA08F1BD777440011A23B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F4CEA2521BB1233300CFBC87 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -31,10 +53,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B1BA0941BD777440011A23B /* FlagKit-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				0B1BA0951BD777440011A23B /* FlagKit-OSX.h */,
+				0B1BA0971BD777440011A23B /* Info.plist */,
+				0B1BA09D1BD778840011A23B /* FlagKitOSX.swift */,
+				0B1BA0FB1BD78CB40011A23B /* NSImage+FakeInit.h */,
+				0B1BA0FC1BD78CB40011A23B /* NSImage+FakeInit.m */,
+				0B1BA0FF1BD78D920011A23B /* FlagKit-Bridging-Header.h */,
+			);
+			path = "FlagKit-OSX";
+			sourceTree = "<group>";
+		};
 		F4CEA24C1BB1233300CFBC87 = {
 			isa = PBXGroup;
 			children = (
 				F4CEA2581BB1233300CFBC87 /* FlagKit */,
+				0B1BA0941BD777440011A23B /* FlagKit-OSX */,
 				F4CEA2571BB1233300CFBC87 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				F4CEA2561BB1233300CFBC87 /* FlagKit.framework */,
+				0B1BA0931BD777440011A23B /* FlagKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +91,7 @@
 				F4CEA2591BB1233300CFBC87 /* FlagKit.h */,
 				F4CEA25B1BB1233300CFBC87 /* Info.plist */,
 				F4DC1CA41BB1252C0052A411 /* FlagKit.swift */,
+				0B1BA09F1BD7788E0011A23B /* FlagKitiOS.swift */,
 			);
 			path = FlagKit;
 			sourceTree = "<group>";
@@ -61,6 +99,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0B1BA0901BD777440011A23B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1BA0FD1BD78CB40011A23B /* NSImage+FakeInit.h in Headers */,
+				0B1BA0961BD777440011A23B /* FlagKit-OSX.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F4CEA2531BB1233300CFBC87 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -72,6 +119,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0B1BA0921BD777440011A23B /* FlagKit-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B1BA09A1BD777440011A23B /* Build configuration list for PBXNativeTarget "FlagKit-OSX" */;
+			buildPhases = (
+				0B1BA08E1BD777440011A23B /* Sources */,
+				0B1BA08F1BD777440011A23B /* Frameworks */,
+				0B1BA0901BD777440011A23B /* Headers */,
+				0B1BA0911BD777440011A23B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FlagKit-OSX";
+			productName = "FlagKit-OSX";
+			productReference = 0B1BA0931BD777440011A23B /* FlagKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		F4CEA2551BB1233300CFBC87 /* FlagKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4CEA25E1BB1233300CFBC87 /* Build configuration list for PBXNativeTarget "FlagKit" */;
@@ -100,6 +165,9 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Bowtie;
 				TargetAttributes = {
+					0B1BA0921BD777440011A23B = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
 					F4CEA2551BB1233300CFBC87 = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -118,11 +186,20 @@
 			projectRoot = "";
 			targets = (
 				F4CEA2551BB1233300CFBC87 /* FlagKit */,
+				0B1BA0921BD777440011A23B /* FlagKit-OSX */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0B1BA0911BD777440011A23B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1BA09B1BD777C00011A23B /* FlagKit.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F4CEA2541BB1233300CFBC87 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -134,10 +211,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0B1BA08E1BD777440011A23B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1BA0FE1BD78CB40011A23B /* NSImage+FakeInit.m in Sources */,
+				0B1BA09C1BD777C90011A23B /* FlagKit.swift in Sources */,
+				0B1BA09E1BD778840011A23B /* FlagKitOSX.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F4CEA2511BB1233300CFBC87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B1BA0A01BD7788E0011A23B /* FlagKitiOS.swift in Sources */,
 				F4DC1CA51BB1252C0052A411 /* FlagKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +233,53 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0B1BA0981BD777440011A23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "FlagKit-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madebybowtie.FlagKit-OSX";
+				PRODUCT_NAME = FlagKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FlagKit-OSX/FlagKit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B1BA0991BD777440011A23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "FlagKit-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madebybowtie.FlagKit-OSX";
+				PRODUCT_NAME = FlagKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FlagKit-OSX/FlagKit-Bridging-Header.h";
+			};
+			name = Release;
+		};
 		F4CEA25C1BB1233300CFBC87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -272,6 +407,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0B1BA09A1BD777440011A23B /* Build configuration list for PBXNativeTarget "FlagKit-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B1BA0981BD777440011A23B /* Debug */,
+				0B1BA0991BD777440011A23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F4CEA2501BB1233300CFBC87 /* Build configuration list for PBXProject "FlagKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

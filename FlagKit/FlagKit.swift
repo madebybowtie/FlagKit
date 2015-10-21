@@ -6,21 +6,25 @@
 //  Copyright © 2015 Bowtie. All rights reserved.
 //
 
-import UIKit
+import Foundation
+public class FlagKit {
 
-public class FlagKit {}
+    public class var assetBundle:NSBundle {
+        struct Singleton {
+            static let instance:NSBundle = {
+                let frameworkBundle = NSBundle(forClass: FlagKit.self)
+                return frameworkBundle
+                }()
+        }
+        return Singleton.instance
+    }
 
-public extension UIImage {
-  public enum SpecialFlag: String {
+}
+
+public enum SpecialFlag: String {
     case World = "WW"
     case EuropeanUnion = "EU"
-  }
-  
-  public convenience init?(flagImageWithCountryCode countryCode: String) {
-    self.init(named:countryCode, inBundle:NSBundle(forClass: FlagKit.self), compatibleWithTraitCollection:nil)
-  }
-  
-  public convenience init?(flagImageForSpecialFlag specialFlag: SpecialFlag) {
-    self.init(flagImageWithCountryCode:specialFlag.rawValue)
-  }
 }
+
+
+
