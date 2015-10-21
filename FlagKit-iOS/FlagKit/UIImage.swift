@@ -1,8 +1,8 @@
 //
-//  FlagKitiOS.swift
+//  UIImage.swift
 //  FlagKit
 //
-//  Created by Yannick Heinrich on 21/10/15.
+//  Created by Simon Blommegård on 21/10/15.
 //  Copyright © 2015 Bowtie. All rights reserved.
 //
 
@@ -14,7 +14,7 @@ public extension UIImage {
         self.init(named:countryCode, inBundle:FlagKit.assetBundle, compatibleWithTraitCollection:nil)
     }
     
-    public convenience init?(flagImageForSpecialFlag specialFlag: SpecialFlag) {
+    public convenience init?(flagImageForSpecialFlag specialFlag: FlagKit.SpecialFlag) {
         self.init(flagImageWithCountryCode:specialFlag.rawValue)
     }
 }
