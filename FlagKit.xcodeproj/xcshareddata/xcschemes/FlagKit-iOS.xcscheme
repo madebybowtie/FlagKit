@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0710"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F46199031BD7B576001260A9"
+               BlueprintIdentifier = "F4AD7BBB1BDD6B6D00713F1B"
                BuildableName = "FlagKit.framework"
-               BlueprintName = "FlagKit"
-               ReferencedContainer = "container:FlagKit-OSX.xcodeproj">
+               BlueprintName = "FlagKit-iOS"
+               ReferencedContainer = "container:FlagKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F46199031BD7B576001260A9"
+            BlueprintIdentifier = "F4AD7BBB1BDD6B6D00713F1B"
             BuildableName = "FlagKit.framework"
-            BlueprintName = "FlagKit"
-            ReferencedContainer = "container:FlagKit-OSX.xcodeproj">
+            BlueprintName = "FlagKit-iOS"
+            ReferencedContainer = "container:FlagKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F46199031BD7B576001260A9"
+            BlueprintIdentifier = "F4AD7BBB1BDD6B6D00713F1B"
             BuildableName = "FlagKit.framework"
-            BlueprintName = "FlagKit"
-            ReferencedContainer = "container:FlagKit-OSX.xcodeproj">
+            BlueprintName = "FlagKit-iOS"
+            ReferencedContainer = "container:FlagKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
