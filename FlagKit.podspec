@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FlagKit"
-  s.version      = "1.0.4"
+  s.version      = "1.0.5"
   s.summary      = "Beautiful flag icons for usage in apps and on the web."
 
   # This description is used to generate tags and improve search results.
@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/madebybowtie/FlagKit.git", :tag => "v1.0.4" }
+  s.source       = { :git => "https://github.com/madebybowtie/FlagKit.git", :tag => "v1.0.5" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,8 +92,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.ios.source_files  = "FlagKit-Common", "FlagKit-iOS/FlagKit/"
-  s.osx.source_files  = "FlagKit-Common", "FlagKit-OSX/FlagKit/"
+  s.ios.source_files  = "FlagKit-Common", "FlagKit-iOS/"
+  s.osx.source_files  = "FlagKit-Common", "FlagKit-OSX/"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
