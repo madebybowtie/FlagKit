@@ -45,12 +45,18 @@ Have a question? Please [open an issue](https://github.com/madebybowtie/FlagKit/
 
 ## Reference
 
-This set currently includes the 184 flags below:
+This set currently includes the 190 flags below:
 
 | Flag | Code | Region |
 | :-------------: | :-------------: | ------------- |
 | ![AD](https://github.com/madebybowtie/FlagKit/blob/master/Images/EU@2x.png) | EU | European Union |
 | ![AE](https://github.com/madebybowtie/FlagKit/blob/master/Images/WW@2x.png) | WW | World |
+| ![CNA](https://github.com/madebybowtie/FlagKit/blob/master/Images/CNA@2x.png) | CNA | North America |
+| ![CSA](https://github.com/madebybowtie/FlagKit/blob/master/Images/CSA@2x.png) | CSA | South America |
+| ![CEU](https://github.com/madebybowtie/FlagKit/blob/master/Images/CEU@2x.png) | CEU | Europe |
+| ![CAF](https://github.com/madebybowtie/FlagKit/blob/master/Images/CAF@2x.png) | CAF | Africa |
+| ![CAS](https://github.com/madebybowtie/FlagKit/blob/master/Images/CAS@2x.png) | CAS | Asia |
+| ![COC](https://github.com/madebybowtie/FlagKit/blob/master/Images/COC@2x.png) | COC | Oceania |
 
 
 | Flag | Code | Country |
