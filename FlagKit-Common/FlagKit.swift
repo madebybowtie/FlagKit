@@ -12,6 +12,12 @@ public class FlagKit {
   public enum SpecialFlag: String {
     case World = "WW"
     case EuropeanUnion = "EU"
+    case NorthAmerica = "CNA"
+    case SouthAmerica = "CSA"
+    case Europe = "CEU"
+    case Africa = "CAF"
+    case Asia = "CAS"
+    case Oceania = "COC"
   }
 
   public class var assetBundle: NSBundle {
