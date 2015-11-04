@@ -37,7 +37,7 @@ UIImage(named: NSLocale.autoupdatingCurrentLocale().objectForKey(NSLocaleCountry
 
 ## Sketch
 
-To be able to open the Sketch-file, please use the [Sketch Beta](http://www.bohemiancoding.com/sketch/beta/).
+To be able to open the Sketch-file make sure you're running the latest version or the beta version [Sketch Beta](http://www.bohemiancoding.com/sketch/beta/).
 
 ## More Info
 
