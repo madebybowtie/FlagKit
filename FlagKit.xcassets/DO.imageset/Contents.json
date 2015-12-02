@@ -2,21 +2,22 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x"
+      "scale" : "1x",
+      "filename" : "DO.png"
     },
     {
       "idiom" : "universal",
-      "filename" : "DO@2x.png",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "DO@2x.png"
     },
     {
       "idiom" : "universal",
-      "filename" : "DO@3x.png",
-      "scale" : "3x"
+      "scale" : "3x",
+      "filename" : "DO@3x.png"
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   }
 }

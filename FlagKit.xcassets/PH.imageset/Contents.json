@@ -2,21 +2,22 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x"
+      "scale" : "1x",
+      "filename" : "PH.png"
     },
     {
       "idiom" : "universal",
-      "filename" : "PH@2x.png",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "PH@2x.png"
     },
     {
       "idiom" : "universal",
-      "filename" : "PH@3x.png",
-      "scale" : "3x"
+      "scale" : "3x",
+      "filename" : "PH@3x.png"
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   }
 }
