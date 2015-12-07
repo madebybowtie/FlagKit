@@ -166,6 +166,7 @@ This set currently includes the 206 flags below:
 | ![LB](https://github.com/madebybowtie/FlagKit/blob/master/Images/LB@2x.png) | LB | Lebanon |
 | ![LC](https://github.com/madebybowtie/FlagKit/blob/master/Images/LC@2x.png) | LC | St. Lucia |
 | ![LI](https://github.com/madebybowtie/FlagKit/blob/master/Images/LI@2x.png) | LI | Liechtenstein |
+| ![LK](https://github.com/madebybowtie/FlagKit/blob/master/Images/LK@2x.png) | LK | Sri Lanka |
 | ![LR](https://github.com/madebybowtie/FlagKit/blob/master/Images/LR@2x.png) | LR | Liberia |
 | ![LS](https://github.com/madebybowtie/FlagKit/blob/master/Images/LS@2x.png) | LS | Lesotho |
 | ![LT](https://github.com/madebybowtie/FlagKit/blob/master/Images/LT@2x.png) | LT | Lithuania |
