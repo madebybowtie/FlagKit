@@ -55,9 +55,9 @@ Pod::Spec.new do |s|
   #
 
   s.author             = { "Bowtie" => "howdy@madebybowtie.com" }
-  # Or just: s.author    = "Simon Blommegård"
-  # s.authors            = { "Simon Blommegård" => "simon@blommegard.se" }
-  # s.social_media_url   = "http://twitter.com/Simon Blommegård"
+  # Or just: s.author    = "Simon Blommegård"
+  # s.authors            = { "Simon Blommegård" => "simon@blommegard.se" }
+  # s.social_media_url   = "http://twitter.com/Simon Blommegård"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -72,7 +72,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.10"
   # s.watchos.deployment_target = "2.0"
-  # s.tvos.deployment_target = "9.0"
+  s.tvos.deployment_target = "9.0"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
