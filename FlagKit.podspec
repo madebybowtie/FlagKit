@@ -57,7 +57,7 @@ Pod::Spec.new do |s|
   s.author             = { "Bowtie" => "howdy@madebybowtie.com" }
   # Or just: s.author    = "Simon Blommegård"
   # s.authors            = { "Simon Blommegård" => "simon@blommegard.se" }
-  # s.social_media_url   = "http://twitter.com/Simon Blommegård"
+  s.social_media_url   = "http://twitter.com/madebybowtie"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -72,7 +72,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.10"
   # s.watchos.deployment_target = "2.0"
-  # s.tvos.deployment_target = "9.0"
+  s.tvos.deployment_target = "9.0"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,8 +92,9 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.ios.source_files  = "FlagKit-Common", "FlagKit-iOS/"
-  s.osx.source_files  = "FlagKit-Common", "FlagKit-OSX/"
+  s.ios.source_files  = "Source/FlagKit.swift", "Source/UIImage.swift"
+  s.tvos.source_files  = "Source/FlagKit.swift", "Source/UIImage.swift"
+  s.osx.source_files  = "Source/FlagKit.swift", "Source/NSImage.swift"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
