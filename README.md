@@ -10,7 +10,7 @@ Add FlagKit to your `Cartfile`:
 ```
 github "madebybowtie/FlagKit"
 ```
-#### Cocoapods
+#### CocoaPods
 Add FlagKit to your `Podfile`:
 ```
 pod 'FlagKit'
