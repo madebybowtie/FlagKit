@@ -45,7 +45,7 @@ Have a question? Please [open an issue](https://github.com/madebybowtie/FlagKit/
 
 ## Reference
 
-This set currently includes the 206 flags below:
+This set currently includes the 252 flags below:
 
 | Flag | Code | Region |
 | :-------------: | :-------------: | ------------- |
@@ -61,6 +61,7 @@ This set currently includes the 206 flags below:
 
 | Flag | Code | Country |
 | :-------------: | :-------------: | ------------- |
+| ![AC](Images/AC@2x.png?raw=true) | AC | Ascension Island |
 | ![AD](Images/AD@2x.png?raw=true) | AD | Andorra |
 | ![AE](Images/AE@2x.png?raw=true) | AE | United Arab Emirates |
 | ![AF](Images/AF@2x.png?raw=true) | AF | Afghanistan |
@@ -70,9 +71,11 @@ This set currently includes the 206 flags below:
 | ![AM](Images/AM@2x.png?raw=true) | AM | Armenia |
 | ![AO](Images/AO@2x.png?raw=true) | AO | Angola |
 | ![AR](Images/AR@2x.png?raw=true) | AR | Argentina |
+| ![AS](Images/AS@2x.png?raw=true) | AS | American Samoa |
 | ![AT](Images/AT@2x.png?raw=true) | AT | Austria |
 | ![AU](Images/AU@2x.png?raw=true) | AU | Australia |
 | ![AX](Images/AX@2x.png?raw=true) | AX | Åland Islands |
+| ![AW](Images/AW@2x.png?raw=true) | AW | Aruba |
 | ![AZ](Images/AZ@2x.png?raw=true) | AZ | Azerbaijan |
 | ![BA](Images/BA@2x.png?raw=true) | BA | Bosnia & Herzegovina |
 | ![BB](Images/BB@2x.png?raw=true) | BB | Barbados |
@@ -83,9 +86,11 @@ This set currently includes the 206 flags below:
 | ![BH](Images/BH@2x.png?raw=true) | BH | Bahrain |
 | ![BI](Images/BI@2x.png?raw=true) | BI | Burundi |
 | ![BJ](Images/BJ@2x.png?raw=true) | BJ | Benin |
+| ![BL](Images/BL@2x.png?raw=true) | BL | Saint Barthélemy |
 | ![BM](Images/BM@2x.png?raw=true) | BM | Bermuda |
 | ![BN](Images/BN@2x.png?raw=true) | BN | Brunei |
 | ![BO](Images/BO@2x.png?raw=true) | BO | Bolivia |
+| ![BQ](Images/BQ@2x.png?raw=true) | BQ | Bonaire |
 | ![BR](Images/BR@2x.png?raw=true) | BR | Brazil |
 | ![BS](Images/BS@2x.png?raw=true) | BS | Bahamas |
 | ![BT](Images/BT@2x.png?raw=true) | BT | Bhutan |
@@ -93,12 +98,14 @@ This set currently includes the 206 flags below:
 | ![BY](Images/BY@2x.png?raw=true) | BY | Belarus |
 | ![BZ](Images/BZ@2x.png?raw=true) | BZ | Belize |
 | ![CA](Images/CA@2x.png?raw=true) | CA | Canada |
+| ![CC](Images/CC@2x.png?raw=true) | CC | Cocos (Keeling) Islands |
 | ![CD](Images/CD@2x.png?raw=true) | CD | Congo - Kinshasa |
 | ![CF](Images/CF@2x.png?raw=true) | CF | Central African Republic |
 | ![CG](Images/CG@2x.png?raw=true) | CG | Congo - Brazzaville |
 | ![CH](Images/CH@2x.png?raw=true) | CH | Switzerland |
 | ![CH2](Images/CH2@2x.png?raw=true) | CH2 | Switzerland |
 | ![CI](Images/CI@2x.png?raw=true) | CI | Côte d’Ivoire |
+| ![CK](Images/CK@2x.png?raw=true) | CK | Cook Islands |
 | ![CL](Images/CL@2x.png?raw=true) | CL | Chile |
 | ![CM](Images/CM@2x.png?raw=true) | CM | Cameroon |
 | ![CN](Images/CN@2x.png?raw=true) | CN | China |
@@ -107,6 +114,7 @@ This set currently includes the 206 flags below:
 | ![CU](Images/CU@2x.png?raw=true) | CU | Cuba |
 | ![CV](Images/CV@2x.png?raw=true) | CV | Cape Verde |
 | ![CY](Images/CY@2x.png?raw=true) | CY | Cyprus |
+| ![CW](Images/CW@2x.png?raw=true) | CW | Curaçao |
 | ![CZ](Images/CZ@2x.png?raw=true) | CZ | Czech Republic |
 | ![DE](Images/DE@2x.png?raw=true) | DE | Germany |
 | ![DJ](Images/DJ@2x.png?raw=true) | DJ | Djibouti |
@@ -117,23 +125,32 @@ This set currently includes the 206 flags below:
 | ![EC](Images/EC@2x.png?raw=true) | EC | Ecuador |
 | ![EE](Images/EE@2x.png?raw=true) | EE | Estonia |
 | ![EG](Images/EG@2x.png?raw=true) | EG | Egypt |
+| ![EH](Images/EH@2x.png?raw=true) | EH | Western Sahara |
 | ![ER](Images/ER@2x.png?raw=true) | ER | Eritrea |
 | ![ES](Images/ES@2x.png?raw=true) | ES | Spain |
 | ![ET](Images/ET@2x.png?raw=true) | ET | Ethiopia |
 | ![FI](Images/FI@2x.png?raw=true) | FI | Finland |
 | ![FJ](Images/FJ@2x.png?raw=true) | FJ | Fiji |
+| ![FK](Images/FK@2x.png?raw=true) | FK | Falkland Islands |
 | ![FM](Images/FM@2x.png?raw=true) | FM | Micronesia |
+| ![FO](Images/FO@2x.png?raw=true) | FO | Faroe Islands |
 | ![FR](Images/FR@2x.png?raw=true) | FR | France |
 | ![GA](Images/GA@2x.png?raw=true) | GA | Gabon |
 | ![GB](Images/GB@2x.png?raw=true) | GB | United Kingdom |
 | ![GD](Images/GD@2x.png?raw=true) | GD | Grenada |
 | ![GE](Images/GE@2x.png?raw=true) | GE | Georgia |
+| ![GF](Images/GF@2x.png?raw=true) | GF | French Guiana |
+| ![GG](Images/GG@2x.png?raw=true) | GG | Guernsey |
 | ![GH](Images/GH@2x.png?raw=true) | GH | Ghana |
+| ![GB](Images/GI@2x.png?raw=true) | GI | Gibraltar |
+| ![GL](Images/GL@2x.png?raw=true) | GL | Greenland |
 | ![GM](Images/GM@2x.png?raw=true) | GM | Gambia |
 | ![GN](Images/GN@2x.png?raw=true) | GN | Guinea |
+| ![GP](Images/GP@2x.png?raw=true) | GP | Guadeloupe |
 | ![GQ](Images/GQ@2x.png?raw=true) | GQ | Equatorial Guinea |
 | ![GR](Images/GR@2x.png?raw=true) | GR | Greece |
 | ![GT](Images/GT@2x.png?raw=true) | GT | Guatemala |
+| ![GU](Images/GU@2x.png?raw=true) | GU | Guam |
 | ![GW](Images/GW@2x.png?raw=true) | GW | Guinea-Bissau |
 | ![GY](Images/GY@2x.png?raw=true) | GY | Guyana |
 | ![HK](Images/HK@2x.png?raw=true) | HK | Hong Kong SAR China |
@@ -144,17 +161,21 @@ This set currently includes the 206 flags below:
 | ![ID](Images/ID@2x.png?raw=true) | ID | Indonesia |
 | ![IE](Images/IE@2x.png?raw=true) | IE | Ireland |
 | ![IL](Images/IL@2x.png?raw=true) | IL | Israel |
+| ![IM](Images/IM@2x.png?raw=true) | IM | Isle of Man |
 | ![IN](Images/IN@2x.png?raw=true) | IN | India |
+| ![IO](Images/IO@2x.png?raw=true) | IO | British Indian Ocean Territory |
 | ![IQ](Images/IQ@2x.png?raw=true) | IQ | Iraq |
 | ![IR](Images/IR@2x.png?raw=true) | IR | Iran |
 | ![IS](Images/IS@2x.png?raw=true) | IS | Iceland |
 | ![IT](Images/IT@2x.png?raw=true) | IT | Italy |
+| ![JE](Images/JE@2x.png?raw=true) | JE | Jersey |
 | ![JM](Images/JM@2x.png?raw=true) | JM | Jamaica |
 | ![JO](Images/JO@2x.png?raw=true) | JO | Jordan |
 | ![JP](Images/JP@2x.png?raw=true) | JP | Japan |
 | ![KE](Images/KE@2x.png?raw=true) | KE | Kenya |
 | ![KG](Images/KG@2x.png?raw=true) | KG | Kyrgyzstan |
 | ![KH](Images/KH@2x.png?raw=true) | KH | Cambodia |
+| ![KI](Images/KI@2x.png?raw=true) | KI | Kiribati |
 | ![KM](Images/KM@2x.png?raw=true) | KM | Comoros |
 | ![KN](Images/KN@2x.png?raw=true) | KN | St. Kitts & Nevis |
 | ![KP](Images/KP@2x.png?raw=true) | KP | North Korea |
@@ -177,12 +198,16 @@ This set currently includes the 206 flags below:
 | ![MC](Images/MC@2x.png?raw=true) | MC | Monaco |
 | ![MD](Images/MD@2x.png?raw=true) | MD | Moldova |
 | ![ME](Images/ME@2x.png?raw=true) | ME | Montenegro |
+| ![MF](Images/MF@2x.png?raw=true) | MF | Saint Martin |
 | ![MG](Images/MG@2x.png?raw=true) | MG | Madagascar |
+| ![MH](Images/MH@2x.png?raw=true) | MH | Marshall Islands |
 | ![MK](Images/MK@2x.png?raw=true) | MK | Macedonia |
 | ![ML](Images/ML@2x.png?raw=true) | ML | Mali |
 | ![MM](Images/MM@2x.png?raw=true) | MM | Myanmar (Burma) |
 | ![MN](Images/MN@2x.png?raw=true) | MN | Mongolia |
 | ![MO](Images/MO@2x.png?raw=true) | MO | Macau SAR China |
+| ![MP](Images/MP@2x.png?raw=true) | MP | Northern Mariana Islands |
+| ![MQ](Images/MQ@2x.png?raw=true) | MQ | Martinique |
 | ![MR](Images/MR@2x.png?raw=true) | MR | Mauritania |
 | ![MS](Images/MS@2x.png?raw=true) | MS | Montserrat |
 | ![MT](Images/MT@2x.png?raw=true) | MT | Malta |
@@ -193,25 +218,33 @@ This set currently includes the 206 flags below:
 | ![MY](Images/MY@2x.png?raw=true) | MY | Malaysia |
 | ![MZ](Images/MZ@2x.png?raw=true) | MZ | Mozambique |
 | ![NA](Images/NA@2x.png?raw=true) | NA | Namibia |
+| ![NC](Images/NC@2x.png?raw=true) | NC | New Caledonia |
 | ![NE](Images/NE@2x.png?raw=true) | NE | Niger |
+| ![NF](Images/NF@2x.png?raw=true) | NF | Norfolk Island |
 | ![NG](Images/NG@2x.png?raw=true) | NG | Nigeria |
 | ![NI](Images/NI@2x.png?raw=true) | NI | Nicaragua |
 | ![NL](Images/NL@2x.png?raw=true) | NL | Netherlands |
 | ![NO](Images/NO@2x.png?raw=true) | NO | Norway |
 | ![NP](Images/NP@2x.png?raw=true) | NP | Nepal |
+| ![NR](Images/NR@2x.png?raw=true) | NR | Nauru |
+| ![NU](Images/NU@2x.png?raw=true) | NU | Niue |
 | ![NZ](Images/NZ@2x.png?raw=true) | NZ | New Zealand |
 | ![OM](Images/OM@2x.png?raw=true) | OM | Oman |
 | ![PA](Images/PA@2x.png?raw=true) | PA | Panama |
 | ![PE](Images/PE@2x.png?raw=true) | PE | Peru |
+| ![PF](Images/PF@2x.png?raw=true) | PF | French Polynesia |
 | ![PG](Images/PG@2x.png?raw=true) | PG | Papua New Guinea |
 | ![PH](Images/PH@2x.png?raw=true) | PH | Philippines |
 | ![PK](Images/PK@2x.png?raw=true) | PK | Pakistan |
-| ![PL](Images/PL@2x.png?raw=true) | PL | Poland |
+| ![PM](Images/PM@2x.png?raw=true) | PL | Poland |
+| ![PF](Images/PF@2x.png?raw=true) | PM | Saint-Pierre and Miquelon |
 | ![PR](Images/PR@2x.png?raw=true) | PR | Puerto Rico |
+| ![PS](Images/PS@2x.png?raw=true) | PS | Palenstine |
 | ![PT](Images/PT@2x.png?raw=true) | PT | Portugal |
 | ![PW](Images/PW@2x.png?raw=true) | PW | Palau |
 | ![PY](Images/PY@2x.png?raw=true) | PY | Paraguay |
 | ![QA](Images/QA@2x.png?raw=true) | QA | Qatar |
+| ![RE](Images/RE@2x.png?raw=true) | RE | Réunion |
 | ![RO](Images/RO@2x.png?raw=true) | RO | Romania |
 | ![RS](Images/RS@2x.png?raw=true) | RS | Serbia |
 | ![RU](Images/RU@2x.png?raw=true) | RU | Russia |
@@ -222,15 +255,19 @@ This set currently includes the 206 flags below:
 | ![SD](Images/SD@2x.png?raw=true) | SD | Sudan |
 | ![SE](Images/SE@2x.png?raw=true) | SE | Sweden |
 | ![SG](Images/SG@2x.png?raw=true) | SG | Singapore |
+| ![SH](Images/SH@2x.png?raw=true) | SH | Saint Helena |
 | ![SI](Images/SI@2x.png?raw=true) | SI | Slovenia |
+| ![SJ](Images/SJ@2x.png?raw=true) | SJ | Svalbard and Jan Mayen |
 | ![SK](Images/SK@2x.png?raw=true) | SK | Slovakia |
 | ![SL](Images/SL@2x.png?raw=true) | SL | Sierra Leone |
 | ![SM](Images/SM@2x.png?raw=true) | SM | San Marino |
 | ![SN](Images/SN@2x.png?raw=true) | SN | Senegal |
 | ![SO](Images/SO@2x.png?raw=true) | SO | Somalia |
 | ![SR](Images/SR@2x.png?raw=true) | SR | Suriname |
+| ![SS](Images/SJ@2x.png?raw=true) | SS | South Sudan |
 | ![ST](Images/ST@2x.png?raw=true) | ST | São Tomé & Príncipe |
 | ![SV](Images/SV@2x.png?raw=true) | SV | El Salvador |
+| ![SX](Images/SX@2x.png?raw=true) | SX | Sint Maarten |
 | ![SY](Images/SY@2x.png?raw=true) | SY | Syria |
 | ![SZ](Images/SZ@2x.png?raw=true) | SZ | Swaziland |
 | ![TC](Images/TC@2x.png?raw=true) | TC | Turks & Caicos Islands |
@@ -238,12 +275,14 @@ This set currently includes the 206 flags below:
 | ![TG](Images/TG@2x.png?raw=true) | TG | Togo |
 | ![TH](Images/TH@2x.png?raw=true) | TH | Thailand |
 | ![TJ](Images/TJ@2x.png?raw=true) | TJ | Tajikistan |
+| ![TK](Images/TK@2x.png?raw=true) | TK | Tokelau |
 | ![TL](Images/TL@2x.png?raw=true) | TL | Timor-Leste |
 | ![TM](Images/TM@2x.png?raw=true) | TM | Turkmenistan |
 | ![TN](Images/TN@2x.png?raw=true) | TN | Tunisia |
 | ![TO](Images/TO@2x.png?raw=true) | TO | Tonga |
 | ![TR](Images/TR@2x.png?raw=true) | TR | Turkey |
 | ![TT](Images/TT@2x.png?raw=true) | TT | Trinidad & Tobago |
+| ![TV](Images/TV@2x.png?raw=true) | TV | Tuvalu |
 | ![TW](Images/TW@2x.png?raw=true) | TW | Taiwan |
 | ![TZ](Images/TZ@2x.png?raw=true) | TZ | Tanzania |
 | ![UA](Images/UA@2x.png?raw=true) | UA | Ukraine |
@@ -251,13 +290,18 @@ This set currently includes the 206 flags below:
 | ![US](Images/US@2x.png?raw=true) | US | United States |
 | ![UY](Images/UY@2x.png?raw=true) | UY | Uruguay |
 | ![UZ](Images/UZ@2x.png?raw=true) | UZ | Uzbekistan |
+| ![VA](Images/VA@2x.png?raw=true) | VA | Vatican City |
 | ![VC](Images/VC@2x.png?raw=true) | VC | St. Vincent & Grenadines |
 | ![VE](Images/VE@2x.png?raw=true) | VE | Venezuela |
 | ![VG](Images/VG@2x.png?raw=true) | VG | British Virgin Islands |
+| ![VI](Images/VI@2x.png?raw=true) | VI | United States Virgin Islands |
 | ![VN](Images/VN@2x.png?raw=true) | VN | Vietnam |
+| ![VU](Images/VU@2x.png?raw=true) | VU | Vanuatu |
+| ![WF](Images/WF@2x.png?raw=true) | WF | Wallis and Futuna |
 | ![WS](Images/WS@2x.png?raw=true) | WS | Samoa |
 | ![YE](Images/YE@2x.png?raw=true) | YE | Yemen |
 | ![ZA](Images/ZA@2x.png?raw=true) | ZA | South Africa |
+| ![ZM](Images/ZM@2x.png?raw=true) | ZM | Zambia |
 | ![ZW](Images/ZW@2x.png?raw=true) | ZW | Zimbabwe |
 
 ## License
