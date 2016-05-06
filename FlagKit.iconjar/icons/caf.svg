@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="23px" height="17px" viewBox="0 0 23 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>CAF</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F0F0F0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="21" height="15" rx="1.5"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#19BFBF" offset="0%"></stop>
+            <stop stop-color="#10ACAC" offset="100%"></stop>
+        </linearGradient>
+        <path d="M6.04262972,4.25577831 C6.01908598,4.11451585 6.0859375,3.9140625 6.17051888,3.82948112 L7.82948112,2.17051888 C7.9236561,2.0763439 8.11770248,2 8.24769449,2 L9.25230551,2 C9.3891034,2 9.54614258,2.09228516 9.6159668,2.23193359 L9.8840332,2.76806641 C9.9480799,2.89615979 10.1075287,3 10.2452393,3 L11.7547607,3 C11.8902026,3 12.0499077,3.09981537 12.1078763,3.2157526 L13.3921237,5.7842474 C13.4517021,5.90340427 13.6177025,6 13.7476945,6 L14.7523055,6 C14.8891034,6 14.9355469,6.0859375 14.8506904,6.19907951 L13.6493096,7.80092049 C13.5668482,7.91086907 13.4538574,8.09228516 13.3840332,8.23193359 L13.1159668,8.76806641 C13.0519201,8.89615979 13,9.10701752 13,9.25234222 L13,9.74765778 C13,9.88702254 12.9538574,10.0922852 12.8840332,10.2319336 L12.6159668,10.7680664 C12.5519201,10.8961598 12.4538574,11.0922852 12.3840332,11.2319336 L12.1159668,11.7680664 C12.0519201,11.8961598 11.9538574,12.0922852 11.8840332,12.2319336 L11.6159668,12.7680664 C11.5519201,12.8961598 11.3929825,13 11.2476578,13 L10.7523422,13 C10.6129775,13 10.4538574,12.9077148 10.3840332,12.7680664 L10.1159668,12.2319336 C10.0519201,12.1038402 10,11.8860598 10,11.7442217 L10,9.25577831 C10,9.11451585 9.921875,8.921875 9.81948853,8.81948853 L9.68051147,8.68051147 C9.58081774,8.58081774 9.4671936,8.40158081 9.421875,8.265625 L9.078125,7.234375 C9.03497775,7.10493326 8.89257812,7 8.75115061,7 L6.74884939,7 C6.61141367,7 6.48100996,6.88605976 6.45737028,6.74422169 L6.04262972,4.25577831 Z" id="path-6"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <path d="M14,10.2452393 C14,10.1097974 14.1070175,10 14.2523422,10 L14.7476578,10 C14.8870225,10 15,10.1070175 15,10.2523422 L15,10.7476578 C15,10.8870225 14.9538574,11.0922852 14.8840332,11.2319336 L14.6159668,11.7680664 C14.5519201,11.8961598 14.3840332,12 14.25,12 L14.25,12 C14.1119288,12 14,11.8924713 14,11.7547607 L14,10.2452393 Z" id="path-8"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Flag-Kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CAF">
+            <g id="BE-Copy-9" transform="translate(1.000000, 1.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="Mask">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <rect id="Mask-Copy" fill="url(#linearGradient-5)" mask="url(#mask-3)" x="0" y="0" width="21" height="15"></rect>
+                <g id="Rectangle-1072" mask="url(#mask-3)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-6"></use>
+                </g>
+                <g id="Rectangle-1073" mask="url(#mask-3)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-8"></use>
+                </g>
+                <rect id="Depth" mask="url(#mask-3)" x="0" y="0" width="21" height="15" rx="1.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

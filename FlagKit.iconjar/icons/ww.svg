@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="23px" height="17px" viewBox="0 0 23 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>WW</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F0F0F0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="21" height="15" rx="1.5"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#19BFBF" offset="0%"></stop>
+            <stop stop-color="#10ACAC" offset="100%"></stop>
+        </linearGradient>
+        <path d="M10.21087,11.990861 C10.3064665,11.9969229 10.4028739,12 10.5,12 C10.5971261,12 10.6935335,11.9969229 10.78913,11.990861 C11.4758049,11.1775712 11.9162221,9.68678441 11.9892341,8 L9.01076588,8 C9.08377789,9.68678441 9.52419507,11.1775712 10.21087,11.990861 Z M8.83700803,11.6827331 C7.32289465,11.0802225 6.21310983,9.67937454 6.02746439,8 L8.00976828,8 C8.06462514,9.39602291 8.34945465,10.6897142 8.83700803,11.6827331 Z M10.21087,3.00913899 C10.3064665,3.00307705 10.4028739,3 10.5,3 C10.5971261,3 10.6935335,3.00307705 10.78913,3.00913899 C11.4758049,3.82242881 11.9162221,5.31321558 11.9892341,7 L9.01076588,7 C9.08377789,5.31321558 9.52419507,3.82242881 10.21087,3.00913899 Z M8.83700803,3.3172669 C7.32289465,3.91977749 6.21310983,5.32062546 6.02746439,7 L8.00976828,7 C8.06462514,5.60397709 8.34945465,4.31028585 8.83700803,3.3172669 Z M12.162992,11.6827331 C13.6771054,11.0802225 14.7868902,9.67937454 14.9725356,8 L12.9902317,8 C12.9353749,9.39602291 12.6505453,10.6897142 12.162992,11.6827331 Z M12.162992,3.3172669 C13.6771054,3.91977749 14.7868902,5.32062546 14.9725356,7 L12.9902317,7 C12.9353749,5.60397709 12.6505453,4.31028585 12.162992,3.3172669 Z M10.5,13 C13.5375661,13 16,10.5375661 16,7.5 C16,4.46243388 13.5375661,2 10.5,2 C7.46243388,2 5,4.46243388 5,7.5 C5,10.5375661 7.46243388,13 10.5,13 Z" id="path-6"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Flag-Kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="WW">
+            <g id="BE-Copy-9" transform="translate(1.000000, 1.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="Mask">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <rect id="Mask-Copy" fill="url(#linearGradient-5)" mask="url(#mask-3)" x="0" y="0" width="21" height="15"></rect>
+                <g id="Oval-143" mask="url(#mask-3)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-6"></use>
+                </g>
+                <rect id="Depth" mask="url(#mask-3)" x="0" y="0" width="21" height="15" rx="1.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
