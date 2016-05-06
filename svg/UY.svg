@@ -33,19 +33,6 @@
             <stop stop-color="#FED443" offset="0%"></stop>
             <stop stop-color="#FCD036" offset="100%"></stop>
         </linearGradient>
-        <rect id="path-11" x="0" y="0" width="21" height="15" rx="1.5"></rect>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-12">
-            <feOffset dx="0" dy="-0.5" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
-            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
-            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
-            </feMerge>
-        </filter>
     </defs>
     <g id="Flag-Kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="UY">
@@ -66,9 +53,7 @@
                     <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-8"></use>
                 </g>
                 <path d="M5,6.99097645 L4.3324372,7.98746396 L4.16334362,6.80001509 L3.12953059,7.40817467 L3.4923973,6.26495326 L2.2970934,6.36433144 L3.12005018,5.4917665 L2,5.06268022 L3.12005018,4.63359394 L2.2970934,3.761029 L3.4923973,3.86040718 L3.12953059,2.71718577 L4.16334362,3.32534535 L4.3324372,2.13789648 L5,3.13438399 L5.6675628,2.13789648 L5.83665638,3.32534535 L6.87046941,2.71718577 L6.5076027,3.86040718 L7.7029066,3.761029 L6.87994982,4.63359394 L8,5.06268022 L6.87994982,5.4917665 L7.7029066,6.36433144 L6.5076027,6.26495326 L6.87046941,7.40817467 L5.83665638,6.80001509 L5.6675628,7.98746396 L5,6.99097645 Z M5,6.97177113 C6.0543618,6.97177113 6.90909091,6.11704201 6.90909091,5.06268022 C6.90909091,4.00831842 6.0543618,3.15358931 5,3.15358931 C3.9456382,3.15358931 3.09090909,4.00831842 3.09090909,5.06268022 C3.09090909,6.11704201 3.9456382,6.97177113 5,6.97177113 Z M5,6.5 C5.82842712,6.5 6.5,5.82842712 6.5,5 C6.5,4.17157288 5.82842712,3.5 5,3.5 C4.17157288,3.5 3.5,4.17157288 3.5,5 C3.5,5.82842712 4.17157288,6.5 5,6.5 Z" id="Star-28" fill="url(#linearGradient-10)" mask="url(#mask-3)"></path>
-                <g id="Depth" mask="url(#mask-3)" fill-opacity="1" fill="black">
-                    <use filter="url(#filter-12)" xlink:href="#path-11"></use>
-                </g>
+                <rect id="Depth" mask="url(#mask-3)" x="0" y="0" width="21" height="15" rx="1.5"></rect>
             </g>
             <path d="M5.25,6 C5.25,6.13015938 5.28315625,6.25257469 5.34148342,6.35926061 C5.4687741,6.59208735 5.71594581,6.75 6,6.75 C6.29833206,6.75 6.55598069,6.57581355 6.67679204,6.32359451 C6.72371895,6.22562474 6.80328369,6.1449585 6.80328369,6" id="Oval-223" stroke="#C7A326" stroke-width="0.25" stroke-linecap="round"></path>
             <circle id="Oval-223" fill="#C6A326" cx="6.5" cy="5.5" r="0.25"></circle>

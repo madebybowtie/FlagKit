@@ -46,19 +46,6 @@
             <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
         </filter>
-        <rect id="path-16" x="0" y="0" width="21" height="15" rx="1.5"></rect>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-17">
-            <feOffset dx="0" dy="-0.5" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
-            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
-            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
-            </feMerge>
-        </filter>
     </defs>
     <g id="Flag-Kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="RS">
@@ -95,9 +82,7 @@
                         <path d="M4.5,0.5 L0.5,5.5" id="Line" stroke="#C43840" stroke-width="1" stroke-linecap="square" fill="none" mask="url(#mask-14)" transform="translate(2.500000, 3.000000) scale(-1, 1) translate(-2.500000, -3.000000) "></path>
                     </g>
                 </g>
-                <g id="Depth" mask="url(#mask-3)" fill-opacity="1" fill="black">
-                    <use filter="url(#filter-17)" xlink:href="#path-16"></use>
-                </g>
+                <rect id="Depth" mask="url(#mask-3)" x="0" y="0" width="21" height="15" rx="1.5"></rect>
             </g>
             <ellipse id="Oval-214" fill="#FFFFFF" cx="7.5" cy="8.5" rx="0.5" ry="1.5"></ellipse>
             <path d="M6,5 L5.5,4 L6.5,4.5 L7.5,4 L8.5,4.5 L9.5,4 L9,5 L9,5.5 C9,5.77614237 8.7842474,6 8.50461102,6 L6.49538898,6 C6.2217932,6 6,5.76806641 6,5.5 L6,5 Z" id="Rectangle-1669" fill="#D1A43A"></path>

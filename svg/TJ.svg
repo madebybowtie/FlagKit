@@ -40,19 +40,6 @@
             <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
         </filter>
-        <rect id="path-13" x="0" y="0" width="21" height="15" rx="1.5"></rect>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-14">
-            <feOffset dx="0" dy="-0.5" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
-            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
-            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
-            </feMerge>
-        </filter>
     </defs>
     <g id="Flag-Kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="TJ">
@@ -77,9 +64,7 @@
                     <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-11"></use>
                 </g>
                 <path d="M10.9339916,8 C10.9759881,7.7825361 11,7.59044003 11,7.5 C11,7.22385763 10.7761424,7 10.5,7 C10.2238576,7 10,7.22385763 10,7.5 C10,7.59044003 10.0240119,7.7825361 10.0660084,8 L9.49538898,8 C9.2157526,8 9,8.22385763 9,8.5 C9,8.76806641 9.2217932,9 9.49538898,9 L11.504611,9 C11.7842474,9 12,8.77614237 12,8.5 C12,8.23193359 11.7782068,8 11.504611,8 L10.9339916,8 Z M9.5,7 C9.77614237,7 10,6.77614237 10,6.5 C10,6.22385763 9.77614237,6 9.5,6 C9.22385763,6 9,6.22385763 9,6.5 C9,6.77614237 9.22385763,7 9.5,7 Z M11.5,7 C11.7761424,7 12,6.77614237 12,6.5 C12,6.22385763 11.7761424,6 11.5,6 C11.2238576,6 11,6.22385763 11,6.5 C11,6.77614237 11.2238576,7 11.5,7 Z M13.5,8 C13.7761424,8 14,7.77614237 14,7.5 C14,7.22385763 13.7761424,7 13.5,7 C13.2238576,7 13,7.22385763 13,7.5 C13,7.77614237 13.2238576,8 13.5,8 Z M7.5,8 C7.77614237,8 8,7.77614237 8,7.5 C8,7.22385763 7.77614237,7 7.5,7 C7.22385763,7 7,7.22385763 7,7.5 C7,7.77614237 7.22385763,8 7.5,8 Z" id="Oval-36" fill="#FAD14E" mask="url(#mask-3)"></path>
-                <g id="Depth" mask="url(#mask-3)" fill-opacity="1" fill="black">
-                    <use filter="url(#filter-14)" xlink:href="#path-13"></use>
-                </g>
+                <rect id="Depth" mask="url(#mask-3)" x="0" y="0" width="21" height="15" rx="1.5"></rect>
             </g>
         </g>
     </g>

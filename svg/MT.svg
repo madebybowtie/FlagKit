@@ -35,19 +35,6 @@
             <rect x="1.5" y="1.5" width="4" height="4" fill="white"></rect>
             <use xlink:href="#path-10" fill="black"></use>
         </mask>
-        <rect id="path-12" x="0" y="0" width="21" height="15" rx="1.5"></rect>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-13">
-            <feOffset dx="0" dy="-0.5" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
-            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
-            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
-            </feMerge>
-        </filter>
     </defs>
     <g id="Flag-Kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="MT">
@@ -72,9 +59,7 @@
                     <use stroke-opacity="0.66" stroke="#7B716A" mask="url(#mask-11)" stroke-width="1" xlink:href="#path-10"></use>
                 </g>
                 <circle id="Oval-20" fill="#7B716A" mask="url(#mask-3)" cx="3.5" cy="3.5" r="0.5"></circle>
-                <g id="Depth" mask="url(#mask-3)" fill-opacity="1" fill="black">
-                    <use filter="url(#filter-13)" xlink:href="#path-12"></use>
-                </g>
+                <rect id="Depth" mask="url(#mask-3)" x="0" y="0" width="21" height="15" rx="1.5"></rect>
             </g>
         </g>
     </g>

@@ -40,19 +40,6 @@
             <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
         </filter>
-        <rect id="path-13" x="0" y="0" width="21" height="15" rx="1.5"></rect>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-14">
-            <feOffset dx="0" dy="-0.5" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
-            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
-            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
-            </feMerge>
-        </filter>
     </defs>
     <g id="Flag-Kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="PA">
@@ -78,9 +65,7 @@
                 </g>
                 <polygon id="Star-33" fill="url(#linearGradient-8)" mask="url(#mask-3)" points="5 4.31999999 3.8244295 5.11803399 4.22013366 3.75339393 3.09788697 2.88196601 4.5180161 2.83660607 5 1.5 5.4819839 2.83660607 6.90211303 2.88196601 5.77986634 3.75339393 6.1755705 5.11803399"></polygon>
                 <polygon id="Star-33" fill="url(#linearGradient-5)" mask="url(#mask-3)" points="15.5 11.82 14.3244295 12.618034 14.7201337 11.2533939 13.597887 10.381966 15.0180161 10.3366061 15.5 9 15.9819839 10.3366061 17.402113 10.381966 16.2798663 11.2533939 16.6755705 12.618034"></polygon>
-                <g id="Depth" mask="url(#mask-3)" fill-opacity="1" fill="black">
-                    <use filter="url(#filter-14)" xlink:href="#path-13"></use>
-                </g>
+                <rect id="Depth" mask="url(#mask-3)" x="0" y="0" width="21" height="15" rx="1.5"></rect>
             </g>
         </g>
     </g>

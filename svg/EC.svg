@@ -48,19 +48,6 @@
             <stop stop-color="#FCDC43" offset="0%"></stop>
             <stop stop-color="#FFDC32" offset="100%"></stop>
         </linearGradient>
-        <rect id="path-15" x="0" y="0" width="21" height="15" rx="1.5"></rect>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-16">
-            <feOffset dx="0" dy="-0.5" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
-            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
-            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
-            </feMerge>
-        </filter>
     </defs>
     <g id="Flag-Kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="EC">
@@ -87,9 +74,7 @@
                 <path d="M11.700039,6 C12.1857955,6.36488433 12.5,6.94580754 12.5,7.60011714 C12.5,8.70468664 11.6045695,9.60011714 10.5,9.60011714 C9.3954305,9.60011714 8.5,8.70468664 8.5,7.60011714 C8.5,6.94580754 8.81420448,6.36488433 9.29996095,6 L10,8.10011714 L11,8.10011714 L11.700039,6 Z" id="Oval-12" fill="url(#linearGradient-14)" mask="url(#mask-3)"></path>
                 <polygon id="Rectangle-483" fill="#5FC0DC" mask="url(#mask-3)" points="10.5 5.5 11 8 10 8"></polygon>
                 <polyline id="Line" stroke="#3F2821" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.66" mask="url(#mask-3)" points="13 4.5 11.5 4 10.5 5 9.5 4 8 4.5"></polyline>
-                <g id="Depth" mask="url(#mask-3)" fill-opacity="1" fill="black">
-                    <use filter="url(#filter-16)" xlink:href="#path-15"></use>
-                </g>
+                <rect id="Depth" mask="url(#mask-3)" x="0" y="0" width="21" height="15" rx="1.5"></rect>
             </g>
         </g>
     </g>

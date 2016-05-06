@@ -49,20 +49,8 @@
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
         </filter>
         <rect id="path-15" x="0" y="0" width="21" height="15" rx="1.5"></rect>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-17">
-            <feOffset dx="0" dy="-0.5" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
-            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
-            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
-            </feMerge>
-        </filter>
-        <path d="M2.25,2.875 L1.51526843,3.26127124 L1.65558968,2.44313562 L1.06117935,1.86372876 L1.88263422,1.74436438 L2.25,1 L2.61736578,1.74436438 L3.43882065,1.86372876 L2.84441032,2.44313562 L2.98473157,3.26127124 L2.25,2.875 Z M7.25,2.875 L6.51526843,3.26127124 L6.65558968,2.44313562 L6.06117935,1.86372876 L6.88263422,1.74436438 L7.25,1 L7.61736578,1.74436438 L8.43882065,1.86372876 L7.84441032,2.44313562 L7.98473157,3.26127124 L7.25,2.875 Z M7.25,5.875 L6.51526843,6.26127124 L6.65558968,5.44313562 L6.06117935,4.86372876 L6.88263422,4.74436438 L7.25,4 L7.61736578,4.74436438 L8.43882065,4.86372876 L7.84441032,5.44313562 L7.98473157,6.26127124 L7.25,5.875 Z M2.25,5.875 L1.51526843,6.26127124 L1.65558968,5.44313562 L1.06117935,4.86372876 L1.88263422,4.74436438 L2.25,4 L2.61736578,4.74436438 L3.43882065,4.86372876 L2.84441032,5.44313562 L2.98473157,6.26127124 L2.25,5.875 Z M4.75,4.375 L4.01526843,4.76127124 L4.15558968,3.94313562 L3.56117935,3.36372876 L4.38263422,3.24436438 L4.75,2.5 L5.11736578,3.24436438 L5.93882065,3.36372876 L5.34441032,3.94313562 L5.48473157,4.76127124 L4.75,4.375 Z" id="path-18"></path>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-19">
+        <path d="M2.25,2.875 L1.51526843,3.26127124 L1.65558968,2.44313562 L1.06117935,1.86372876 L1.88263422,1.74436438 L2.25,1 L2.61736578,1.74436438 L3.43882065,1.86372876 L2.84441032,2.44313562 L2.98473157,3.26127124 L2.25,2.875 Z M7.25,2.875 L6.51526843,3.26127124 L6.65558968,2.44313562 L6.06117935,1.86372876 L6.88263422,1.74436438 L7.25,1 L7.61736578,1.74436438 L8.43882065,1.86372876 L7.84441032,2.44313562 L7.98473157,3.26127124 L7.25,2.875 Z M7.25,5.875 L6.51526843,6.26127124 L6.65558968,5.44313562 L6.06117935,4.86372876 L6.88263422,4.74436438 L7.25,4 L7.61736578,4.74436438 L8.43882065,4.86372876 L7.84441032,5.44313562 L7.98473157,6.26127124 L7.25,5.875 Z M2.25,5.875 L1.51526843,6.26127124 L1.65558968,5.44313562 L1.06117935,4.86372876 L1.88263422,4.74436438 L2.25,4 L2.61736578,4.74436438 L3.43882065,4.86372876 L2.84441032,5.44313562 L2.98473157,6.26127124 L2.25,5.875 Z M4.75,4.375 L4.01526843,4.76127124 L4.15558968,3.94313562 L3.56117935,3.36372876 L4.38263422,3.24436438 L4.75,2.5 L5.11736578,3.24436438 L5.93882065,3.36372876 L5.34441032,3.94313562 L5.48473157,4.76127124 L4.75,4.375 Z" id="path-17"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-18">
             <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
         </filter>
@@ -93,12 +81,10 @@
                 <mask id="mask-16" fill="white">
                     <use xlink:href="#path-15"></use>
                 </mask>
-                <g id="Depth" fill-opacity="1" fill="black">
-                    <use filter="url(#filter-17)" xlink:href="#path-15"></use>
-                </g>
+                <g id="Depth"></g>
                 <g id="Star-2" mask="url(#mask-16)">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-19)" xlink:href="#path-18"></use>
-                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-18"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-18)" xlink:href="#path-17"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-17"></use>
                 </g>
             </g>
         </g>

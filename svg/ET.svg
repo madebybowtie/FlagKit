@@ -48,33 +48,20 @@
             <stop stop-color="#205CCA" offset="0%"></stop>
             <stop stop-color="#154BAD" offset="100%"></stop>
         </linearGradient>
-        <rect id="path-15" x="0" y="0" width="21" height="15" rx="1.5"></rect>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-16">
-            <feOffset dx="0" dy="-0.5" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
-            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
-            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
-            </feMerge>
-        </filter>
-        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-17">
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-15">
             <stop stop-color="#FFDB3D" offset="0%"></stop>
             <stop stop-color="#FDD420" offset="100%"></stop>
         </linearGradient>
-        <polygon id="path-18" points="10.5 8.47500004 9.03053687 9.52254249 9.57271986 7.80129158 8.12235871 6.72745751 9.92690936 6.7112084 10.5 5 11.0730906 6.7112084 12.8776413 6.72745751 11.4272801 7.80129158 11.9694631 9.52254249"></polygon>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-19">
+        <polygon id="path-16" points="10.5 8.47500004 9.03053687 9.52254249 9.57271986 7.80129158 8.12235871 6.72745751 9.92690936 6.7112084 10.5 5 11.0730906 6.7112084 12.8776413 6.72745751 11.4272801 7.80129158 11.9694631 9.52254249"></polygon>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-17">
             <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
             <feOffset dx="0" dy="0.5" in="shadowInner" result="shadowInner"></feOffset>
             <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
         </filter>
-        <mask id="mask-20" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="5" height="5" fill="white">
-            <use xlink:href="#path-18"></use>
+        <mask id="mask-18" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="5" height="5" fill="white">
+            <use xlink:href="#path-16"></use>
         </mask>
     </defs>
     <g id="Flag-Kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -100,12 +87,10 @@
                     <use fill="url(#linearGradient-11)" fill-rule="evenodd" xlink:href="#path-12"></use>
                 </g>
                 <circle id="Oval-95" fill="url(#linearGradient-14)" mask="url(#mask-3)" cx="10.5" cy="7.5" r="3.5"></circle>
-                <g id="Depth" mask="url(#mask-3)" fill-opacity="1" fill="black">
-                    <use filter="url(#filter-16)" xlink:href="#path-15"></use>
-                </g>
+                <rect id="Depth" mask="url(#mask-3)" x="0" y="0" width="21" height="15" rx="1.5"></rect>
                 <g id="Star-8" mask="url(#mask-3)">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-19)" xlink:href="#path-18"></use>
-                    <use stroke="url(#linearGradient-17)" mask="url(#mask-20)" stroke-width="1" xlink:href="#path-18"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-17)" xlink:href="#path-16"></use>
+                    <use stroke="url(#linearGradient-15)" mask="url(#mask-18)" stroke-width="1" xlink:href="#path-16"></use>
                 </g>
             </g>
         </g>

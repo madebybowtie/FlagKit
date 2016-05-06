@@ -34,19 +34,6 @@
             <stop stop-color="#E81B42" offset="0%"></stop>
             <stop stop-color="#D20F34" offset="100%"></stop>
         </linearGradient>
-        <rect id="path-11" x="0" y="0" width="21" height="15" rx="1.5"></rect>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-12">
-            <feOffset dx="0" dy="-0.5" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
-            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
-            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
-            </feMerge>
-        </filter>
     </defs>
     <g id="Flag-Kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="DZ">
@@ -68,9 +55,7 @@
                 </g>
                 <polygon id="Star-8" fill="url(#linearGradient-10)" mask="url(#mask-3)" points="13 8.28000003 11.8244295 9.11803399 12.2581759 7.74103327 11.097887 6.88196601 12.5415275 6.86896672 13 5.5 13.4584725 6.86896672 14.902113 6.88196601 13.7418241 7.74103327 14.1755705 9.11803399"></polygon>
                 <path d="M13.2600002,10.7859996 C12.4889281,11.5389944 11.4526533,12 10.3131751,12 C7.93107426,12 6,9.98528137 6,7.5 C6,5.01471863 7.93107426,3 10.3131751,3 C11.4526533,3 12.4889281,3.46100558 13.2600002,4.21400036 C12.7281556,3.96084355 12.1265684,3.81818182 11.4894956,3.81818182 C9.32394935,3.81818182 7.5684273,5.46658797 7.5684273,7.5 C7.5684273,9.53341203 9.32394935,11.1818182 11.4894956,11.1818182 C12.1265684,11.1818182 12.7281556,11.0391565 13.2600002,10.7859996 Z" id="Oval-3" fill="url(#linearGradient-10)" mask="url(#mask-3)"></path>
-                <g id="Depth" mask="url(#mask-3)" fill-opacity="1" fill="black">
-                    <use filter="url(#filter-12)" xlink:href="#path-11"></use>
-                </g>
+                <rect id="Depth" mask="url(#mask-3)" x="0" y="0" width="21" height="15" rx="1.5"></rect>
             </g>
         </g>
     </g>
