@@ -505,6 +505,7 @@
 				F47E01DB1C5F52270038898A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4AD7BB61BDD6B6D00713F1B /* Build configuration list for PBXProject "FlagKit" */ = {
 			isa = XCConfigurationList;
