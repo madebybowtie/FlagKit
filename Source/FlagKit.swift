@@ -12,12 +12,18 @@ public class FlagKit {
   public enum SpecialFlag: String {
     case World = "WW"
     case EuropeanUnion = "EU"
-    case NorthAmerica = "CNA"
-    case SouthAmerica = "CSA"
-    case Europe = "CEU"
-    case Africa = "CAF"
-    case Asia = "CAS"
-    case Oceania = "COC"
+    case NorthAmerica = "WW-NAM"
+    case SouthAmerica = "WW-SAM"
+    case Europe = "WW-EUR"
+    case Africa = "WW-AFR"
+    case Asia = "WW-ASI"
+    case Oceania = "WW-AUS"
+    case California = "US-CA"
+    case Skåne = "SE-SKA"
+    case England = "GB-ENG"
+    case Scotland = "GB-SCT"
+    case Wales = "GB-WLS"
+    case Pride = "LGBT"
   }
 
   public class var assetBundle: NSBundle {
