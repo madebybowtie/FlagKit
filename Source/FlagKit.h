@@ -6,7 +6,7 @@
 //  Copyright © 2015 Bowtie. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for FlagKit.
 FOUNDATION_EXPORT double FlagKitVersionNumber;
