@@ -52,6 +52,7 @@ This set currently includes the 255 flags below:
 | ![CH2](Images/CH2@2x.png?raw=true) | CH2 | Switzerland (Square) |
 | ![EU](Images/EU@2x.png?raw=true) | EU | European Union |
 | ![GB-ENG](Images/GB-ENG@2x.png?raw=true) | GB-ENG | England |
+| ![GB-NIR](Images/GB-NIR@2x.png?raw=true) | GB-NIR | Northern Ireland |
 | ![GB-SCT](Images/GB-SCT@2x.png?raw=true) | GB-SCT | Scotland |
 | ![GB-WLS](Images/GB-WLS@2x.png?raw=true) | GB-WLS | Wales |
 | ![LGBT](Images/LGBT@2x.png?raw=true) | LGBT | Pride |

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FlagKit"
-  s.version      = "1.1"
+  s.version      = "1.1.1"
   s.summary      = "Beautiful flag icons for usage in apps and on the web."
 
   # This description is used to generate tags and improve search results.
@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/madebybowtie/FlagKit.git", :tag => "v1.1" }
+  s.source       = { :git => "https://github.com/madebybowtie/FlagKit.git", :tag => "v1.1.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
