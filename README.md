@@ -25,7 +25,7 @@ UIImage(flagImageWithCountryCode: NSLocale.autoupdatingCurrentLocale().objectFor
 UIImage(flagImageForSpecialFlag: .World)
 ```
 ```objc
-[UIImage flagImageWithCountryCode:[[NSLocale autoupdatingCurrentLocale] objectForKey:NSLocaleCountryCode]];
+[[UIImage alloc] initWithFlagImageWithCountryCode:[[NSLocale autoupdatingCurrentLocale] objectForKey:NSLocaleCountryCode]];
 ```
 If you are just adding `FlagKit.xcassets` to you target, you can simply use the standard `UIImage/NSImage` methods:
 ```swift
