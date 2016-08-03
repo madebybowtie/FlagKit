@@ -11,7 +11,7 @@ import UIKit
 public extension UIImage {
     
     public convenience init?(flagImageWithCountryCode countryCode: String) {
-        self.init(named:countryCode, inBundle:FlagKit.assetBundle, compatibleWithTraitCollection:nil)
+        self.init(named:countryCode, in:FlagKit.assetBundle, compatibleWith:nil)
     }
     
     public convenience init?(flagImageForSpecialFlag specialFlag: FlagKit.SpecialFlag) {
