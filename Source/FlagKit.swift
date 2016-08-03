@@ -26,9 +26,9 @@ public class FlagKit {
     case Pride = "LGBT"
   }
 
-  public class var assetBundle: NSBundle {
+  public class var assetBundle: Bundle {
     get {
-      return NSBundle(forClass: FlagKit.self)
+      return Bundle(for: FlagKit.self)
     }
   }
 }
