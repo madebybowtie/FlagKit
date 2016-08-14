@@ -1,0 +1,10 @@
+language: objective-c
+
+env:
+  - "DESTINATION='platform=iOS Simulator,name=iPhone 6S' ACTION=build"
+  - "DESTINATION='platform=OS X' ACTION=build"
+  - "DESTINATION='platform=watchOS Simulator,name=Apple Watch - 38mm' ACTION=build"
+  - "DESTINATION='platform=tvOS Simulator,name=Apple TV 1080p' ACTION=build"
+
+script:
+  - set -o pipefail && xcodebuild -scheme FlagKit -destination "$DESTINATION" $ACTION | xcpretty
