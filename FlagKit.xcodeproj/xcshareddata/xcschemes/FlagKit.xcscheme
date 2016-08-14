@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0710"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F47E01D31C5F52270038898A"
+               BlueprintIdentifier = "F4AD7BBB1BDD6B6D00713F1B"
                BuildableName = "FlagKit.framework"
-               BlueprintName = "FlagKit-tvOS"
+               BlueprintName = "FlagKit"
                ReferencedContainer = "container:FlagKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F47E01D31C5F52270038898A"
+            BlueprintIdentifier = "F4AD7BBB1BDD6B6D00713F1B"
             BuildableName = "FlagKit.framework"
-            BlueprintName = "FlagKit-tvOS"
+            BlueprintName = "FlagKit"
             ReferencedContainer = "container:FlagKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F47E01D31C5F52270038898A"
+            BlueprintIdentifier = "F4AD7BBB1BDD6B6D00713F1B"
             BuildableName = "FlagKit.framework"
-            BlueprintName = "FlagKit-tvOS"
+            BlueprintName = "FlagKit"
             ReferencedContainer = "container:FlagKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

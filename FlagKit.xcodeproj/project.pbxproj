@@ -7,50 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F47E01E41C609F960038898A /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47E01E31C609F960038898A /* UIImage.swift */; };
-		F47E01E51C609F960038898A /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47E01E31C609F960038898A /* UIImage.swift */; };
-		F47E01E71C609FA30038898A /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47E01E61C609FA30038898A /* NSImage.swift */; };
-		F47E01E81C609FC10038898A /* FlagKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AD7BD81BDD6ED800713F1B /* FlagKit.swift */; };
-		F47E01E91C609FE60038898A /* FlagKit.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AD7BD51BDD6EB200713F1B /* FlagKit.xcassets */; };
+		F47E01E41C609F960038898A /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47E01E31C609F960038898A /* Image.swift */; };
 		F47E01EB1C60AF0C0038898A /* FlagKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F47E01EA1C60AF0C0038898A /* FlagKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F47E01EC1C60AF0C0038898A /* FlagKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F47E01EA1C60AF0C0038898A /* FlagKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F47E01ED1C60AF0C0038898A /* FlagKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F47E01EA1C60AF0C0038898A /* FlagKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4AD7BD61BDD6EB200713F1B /* FlagKit.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AD7BD51BDD6EB200713F1B /* FlagKit.xcassets */; };
-		F4AD7BD71BDD6EB200713F1B /* FlagKit.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AD7BD51BDD6EB200713F1B /* FlagKit.xcassets */; };
 		F4AD7BD91BDD6ED800713F1B /* FlagKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AD7BD81BDD6ED800713F1B /* FlagKit.swift */; };
-		F4AD7BDA1BDD6ED800713F1B /* FlagKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AD7BD81BDD6ED800713F1B /* FlagKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F47E01D41C5F52270038898A /* FlagKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlagKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44A7B8A1D5FE3E200547A0B /* FlagKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagKitTests.swift; sourceTree = "<group>"; };
+		F44A7B8C1D5FE3E200547A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F47E01DD1C6099340038898A /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		F47E01DF1C60993F0038898A /* Info-OSX.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-OSX.plist"; sourceTree = "<group>"; };
 		F47E01E11C6099480038898A /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
-		F47E01E31C609F960038898A /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
-		F47E01E61C609FA30038898A /* NSImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
+		F47E01E31C609F960038898A /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		F47E01EA1C60AF0C0038898A /* FlagKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagKit.h; sourceTree = "<group>"; };
 		F4AD7BBC1BDD6B6D00713F1B /* FlagKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlagKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4AD7BCC1BDD6B9000713F1B /* FlagKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlagKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4AD7BD51BDD6EB200713F1B /* FlagKit.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FlagKit.xcassets; sourceTree = SOURCE_ROOT; };
 		F4AD7BD81BDD6ED800713F1B /* FlagKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F47E01D01C5F52270038898A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F4AD7BB81BDD6B6D00713F1B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F4AD7BC81BDD6B9000713F1B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,6 +37,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F44A7B891D5FE3E200547A0B /* FlagKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				F44A7B8A1D5FE3E200547A0B /* FlagKitTests.swift */,
+				F44A7B8C1D5FE3E200547A0B /* Info.plist */,
+			);
+			path = FlagKitTests;
+			sourceTree = "<group>";
+		};
 		F47E01DC1C6099010038898A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				F4AD7BD41BDD6E8300713F1B /* Source */,
+				F44A7B891D5FE3E200547A0B /* FlagKitTests */,
 				F4AD7BBD1BDD6B6D00713F1B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				F4AD7BBC1BDD6B6D00713F1B /* FlagKit.framework */,
-				F4AD7BCC1BDD6B9000713F1B /* FlagKit.framework */,
-				F47E01D41C5F52270038898A /* FlagKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,8 +78,7 @@
 			children = (
 				F47E01EA1C60AF0C0038898A /* FlagKit.h */,
 				F4AD7BD81BDD6ED800713F1B /* FlagKit.swift */,
-				F47E01E31C609F960038898A /* UIImage.swift */,
-				F47E01E61C609FA30038898A /* NSImage.swift */,
+				F47E01E31C609F960038898A /* Image.swift */,
 				F4AD7BD51BDD6EB200713F1B /* FlagKit.xcassets */,
 				F47E01DC1C6099010038898A /* Supporting Files */,
 			);
@@ -104,14 +88,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F47E01D11C5F52270038898A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F47E01ED1C60AF0C0038898A /* FlagKit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F4AD7BB91BDD6B6D00713F1B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -120,38 +96,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4AD7BC91BDD6B9000713F1B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F47E01EC1C60AF0C0038898A /* FlagKit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F47E01D31C5F52270038898A /* FlagKit-tvOS */ = {
+		F4AD7BBB1BDD6B6D00713F1B /* FlagKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F47E01D91C5F52270038898A /* Build configuration list for PBXNativeTarget "FlagKit-tvOS" */;
-			buildPhases = (
-				F47E01CF1C5F52270038898A /* Sources */,
-				F47E01D01C5F52270038898A /* Frameworks */,
-				F47E01D11C5F52270038898A /* Headers */,
-				F47E01D21C5F52270038898A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "FlagKit-tvOS";
-			productName = "FlagKit-tvOS";
-			productReference = F47E01D41C5F52270038898A /* FlagKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F4AD7BBB1BDD6B6D00713F1B /* FlagKit-iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F4AD7BC41BDD6B6D00713F1B /* Build configuration list for PBXNativeTarget "FlagKit-iOS" */;
+			buildConfigurationList = F4AD7BC41BDD6B6D00713F1B /* Build configuration list for PBXNativeTarget "FlagKit" */;
 			buildPhases = (
 				F4AD7BB71BDD6B6D00713F1B /* Sources */,
 				F4AD7BB81BDD6B6D00713F1B /* Frameworks */,
@@ -162,27 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = "FlagKit-iOS";
+			name = FlagKit;
 			productName = "FlagKit-iOS";
 			productReference = F4AD7BBC1BDD6B6D00713F1B /* FlagKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F4AD7BCB1BDD6B9000713F1B /* FlagKit-OSX */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F4AD7BD11BDD6B9000713F1B /* Build configuration list for PBXNativeTarget "FlagKit-OSX" */;
-			buildPhases = (
-				F4AD7BC71BDD6B9000713F1B /* Sources */,
-				F4AD7BC81BDD6B9000713F1B /* Frameworks */,
-				F4AD7BC91BDD6B9000713F1B /* Headers */,
-				F4AD7BCA1BDD6B9000713F1B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "FlagKit-OSX";
-			productName = "FlagKit-OSX";
-			productReference = F4AD7BCC1BDD6B9000713F1B /* FlagKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -191,17 +123,11 @@
 		F4AD7BB31BDD6B6D00713F1B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Bowtie;
 				TargetAttributes = {
-					F47E01D31C5F52270038898A = {
-						CreatedOnToolsVersion = 7.2;
-					};
 					F4AD7BBB1BDD6B6D00713F1B = {
-						CreatedOnToolsVersion = 7.1;
-					};
-					F4AD7BCB1BDD6B9000713F1B = {
 						CreatedOnToolsVersion = 7.1;
 					};
 				};
@@ -218,22 +144,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4AD7BBB1BDD6B6D00713F1B /* FlagKit-iOS */,
-				F4AD7BCB1BDD6B9000713F1B /* FlagKit-OSX */,
-				F47E01D31C5F52270038898A /* FlagKit-tvOS */,
+				F4AD7BBB1BDD6B6D00713F1B /* FlagKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F47E01D21C5F52270038898A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F47E01E91C609FE60038898A /* FlagKit.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F4AD7BBA1BDD6B6D00713F1B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,88 +158,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4AD7BCA1BDD6B9000713F1B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4AD7BD71BDD6EB200713F1B /* FlagKit.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F47E01CF1C5F52270038898A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F47E01E81C609FC10038898A /* FlagKit.swift in Sources */,
-				F47E01E51C609F960038898A /* UIImage.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F4AD7BB71BDD6B6D00713F1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F4AD7BD91BDD6ED800713F1B /* FlagKit.swift in Sources */,
-				F47E01E41C609F960038898A /* UIImage.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F4AD7BC71BDD6B9000713F1B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F47E01E71C609FA30038898A /* NSImage.swift in Sources */,
-				F4AD7BDA1BDD6ED800713F1B /* FlagKit.swift in Sources */,
+				F47E01E41C609F960038898A /* Image.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F47E01DA1C5F52270038898A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Source/Info-tvOS.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.madebybowtie.FlagKit;
-				PRODUCT_NAME = FlagKit;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Debug;
-		};
-		F47E01DB1C5F52270038898A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Source/Info-tvOS.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.madebybowtie.FlagKit;
-				PRODUCT_NAME = FlagKit;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Release;
-		};
 		F4AD7BC21BDD6B6D00713F1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -366,10 +215,12 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -408,10 +259,12 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx appletvos appletvsimulator watchos watchsimulator";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -425,12 +278,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Source/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.madebybowtie.FlagKit;
 				PRODUCT_NAME = FlagKit;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILYS = "";
 			};
 			name = Debug;
 		};
@@ -444,69 +297,17 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Source/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.madebybowtie.FlagKit;
 				PRODUCT_NAME = FlagKit;
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		F4AD7BD21BDD6B9000713F1B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Source/Info-OSX.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = com.madebybowtie.FlagKit;
-				PRODUCT_NAME = FlagKit;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		F4AD7BD31BDD6B9000713F1B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Source/Info-OSX.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = com.madebybowtie.FlagKit;
-				PRODUCT_NAME = FlagKit;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILYS = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F47E01D91C5F52270038898A /* Build configuration list for PBXNativeTarget "FlagKit-tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F47E01DA1C5F52270038898A /* Debug */,
-				F47E01DB1C5F52270038898A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		F4AD7BB61BDD6B6D00713F1B /* Build configuration list for PBXProject "FlagKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -516,20 +317,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4AD7BC41BDD6B6D00713F1B /* Build configuration list for PBXNativeTarget "FlagKit-iOS" */ = {
+		F4AD7BC41BDD6B6D00713F1B /* Build configuration list for PBXNativeTarget "FlagKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4AD7BC51BDD6B6D00713F1B /* Debug */,
 				F4AD7BC61BDD6B6D00713F1B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F4AD7BD11BDD6B9000713F1B /* Build configuration list for PBXNativeTarget "FlagKit-OSX" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F4AD7BD21BDD6B9000713F1B /* Debug */,
-				F4AD7BD31BDD6B9000713F1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
