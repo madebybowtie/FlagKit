@@ -17,9 +17,9 @@
 public extension Image {
 #if os(OSX)
   public convenience init?(flagImageWithCountryCode countryCode: String) {
-    guard let image = FlagKit.assetBundle.imageForResource(countryCode) else {return nil}
-    guard let CGImage = image.CGImageForProposedRect(nil, context: nil, hints: nil) else {return nil}
-    self.init(CGImage:CGImage, size:image.size)
+    guard let image = FlagKit.assetBundle.image(forResource: countryCode) else {return nil}
+    guard let CGImage = image.cgImage(forProposedRect: nil, context: nil, hints: nil) else {return nil}
+    self.init(cgImage:CGImage, size:image.size)
   }
   
 #else
