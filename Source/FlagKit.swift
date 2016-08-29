@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class FlagKit {
+open class FlagKit {
   public enum SpecialFlag: String {
     case World = "WW"
     case EuropeanUnion = "EU"
@@ -26,9 +26,9 @@ public class FlagKit {
     case Pride = "LGBT"
   }
 
-  public class var assetBundle: NSBundle {
+  open class var assetBundle: Bundle {
     get {
-      return NSBundle(forClass: FlagKit.self)
+      return Bundle(for: FlagKit.self)
     }
   }
 }
