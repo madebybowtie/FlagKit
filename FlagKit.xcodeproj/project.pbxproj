@@ -129,6 +129,7 @@
 				TargetAttributes = {
 					F4AD7BBB1BDD6B6D00713F1B = {
 						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -283,6 +284,7 @@
 				PRODUCT_NAME = FlagKit;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILYS = "";
 			};
 			name = Debug;
@@ -301,6 +303,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.madebybowtie.FlagKit;
 				PRODUCT_NAME = FlagKit;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILYS = "";
 			};
 			name = Release;
