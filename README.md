@@ -45,7 +45,7 @@ Have a question? Please [open an issue](https://github.com/madebybowtie/FlagKit/
 
 ## Reference
 
-This set currently includes the 256 flags below:
+This set currently includes the 267 flags below:
 
 | Flag | Code | Region |
 | :-------------: | :-------------: | ------------- |
@@ -55,8 +55,14 @@ This set currently includes the 256 flags below:
 | ![GB-NIR](Images/GB-NIR@2x.png?raw=true) | GB-NIR | Northern Ireland |
 | ![GB-SCT](Images/GB-SCT@2x.png?raw=true) | GB-SCT | Scotland |
 | ![GB-WLS](Images/GB-WLS@2x.png?raw=true) | GB-WLS | Wales |
+| ![GB-ZET](Images/GB-ZET@2x.png?raw=true) | GB-ZET | Shetland Islands |
 | ![LGBT](Images/LGBT@2x.png?raw=true) | LGBT | Pride |
+| ![SAMI](Images/SAMI@2x.png?raw=true) | SAMI | Sami |
+| ![SE-JAM](Images/SE-JAM@2x.png?raw=true) | SE-JAM | Jämtland |
 | ![SE-SKA](Images/SE-SKA@2x.png?raw=true) | SE-SKA | Skåne |
+| ![SE-VAS](Images/SE-VAS@2x.png?raw=true) | SE-VAS | West Swedish |
+| ![SEFI](Images/SEFI@2x.png?raw=true) | SEFI | Swedish Finnish combo |
+| ![TORN](Images/TORN@2x.png?raw=true) | TORN | Torne Valley |
 | ![US-CA](Images/US-CA@2x.png?raw=true) | US-CA | California |
 | ![WW-AFR](Images/WW-AFR@2x.png?raw=true) | WW-AFR | Africa |
 | ![WW-ASI](Images/WW-ASI@2x.png?raw=true) | WW-ASI | Asia |
@@ -65,7 +71,6 @@ This set currently includes the 256 flags below:
 | ![WW-NAM](Images/WW-NAM@2x.png?raw=true) | WW-NAM | North America |
 | ![WW-SAM](Images/WW-SAM@2x.png?raw=true) | WW-SAM | South America |
 | ![WW](Images/WW@2x.png?raw=true) | WW | World |
-
 
 | Flag | Code | Country |
 | :-------------: | :-------------: | ------------- |
@@ -81,6 +86,7 @@ This set currently includes the 256 flags below:
 | ![AS](Images/AS@2x.png?raw=true) | AS | American Samoa |
 | ![AT](Images/AT@2x.png?raw=true) | AT | Austria |
 | ![AU](Images/AU@2x.png?raw=true) | AU | Australia |
+| ![AW](Images/AW@2x.png?raw=true) | AW | Aruba |
 | ![AX](Images/AX@2x.png?raw=true) | AX | Åland Islands |
 | ![AZ](Images/AZ@2x.png?raw=true) | AZ | Azerbaijan |
 | ![BA](Images/BA@2x.png?raw=true) | BA | Bosnia & Herzegovina |
@@ -138,6 +144,7 @@ This set currently includes the 256 flags below:
 | ![FJ](Images/FJ@2x.png?raw=true) | FJ | Fiji |
 | ![FK](Images/FK@2x.png?raw=true) | FK | Falkland Islands |
 | ![FM](Images/FM@2x.png?raw=true) | FM | Micronesia |
+| ![FO](Images/FO@2x.png?raw=true) | FO | Faroe Islands |
 | ![FR](Images/FR@2x.png?raw=true) | FR | France |
 | ![GA](Images/GA@2x.png?raw=true) | GA | Gabon |
 | ![GB](Images/GB@2x.png?raw=true) | GB | United Kingdom |
@@ -153,6 +160,7 @@ This set currently includes the 256 flags below:
 | ![GP](Images/GP@2x.png?raw=true) | GP | Guadeloupe |
 | ![GQ](Images/GQ@2x.png?raw=true) | GQ | Equatorial Guinea |
 | ![GR](Images/GR@2x.png?raw=true) | GR | Greece |
+| ![GS](Images/GS@2x.png?raw=true) | GS | So. Georgia & So. Sandwich Isl. |
 | ![GT](Images/GT@2x.png?raw=true) | GT | Guatemala |
 | ![GU](Images/GU@2x.png?raw=true) | GU | Guam |
 | ![GW](Images/GW@2x.png?raw=true) | GW | Guinea-Bissau |
@@ -211,6 +219,7 @@ This set currently includes the 256 flags below:
 | ![MN](Images/MN@2x.png?raw=true) | MN | Mongolia |
 | ![MO](Images/MO@2x.png?raw=true) | MO | Macau SAR China |
 | ![MP](Images/MP@2x.png?raw=true) | MP | Northern Mariana Islands |
+| ![MQ](Images/MQ@2x.png?raw=true) | MQ | Martinique |
 | ![MR](Images/MR@2x.png?raw=true) | MR | Mauritania |
 | ![MS](Images/MS@2x.png?raw=true) | MS | Montserrat |
 | ![MT](Images/MT@2x.png?raw=true) | MT | Malta |
@@ -279,12 +288,14 @@ This set currently includes the 256 flags below:
 | ![TG](Images/TG@2x.png?raw=true) | TG | Togo |
 | ![TH](Images/TH@2x.png?raw=true) | TH | Thailand |
 | ![TJ](Images/TJ@2x.png?raw=true) | TJ | Tajikistan |
+| ![TK](Images/TK@2x.png?raw=true) | TK | Tokelau |
 | ![TL](Images/TL@2x.png?raw=true) | TL | Timor-Leste |
 | ![TM](Images/TM@2x.png?raw=true) | TM | Turkmenistan |
 | ![TN](Images/TN@2x.png?raw=true) | TN | Tunisia |
 | ![TO](Images/TO@2x.png?raw=true) | TO | Tonga |
 | ![TR](Images/TR@2x.png?raw=true) | TR | Turkey |
 | ![TT](Images/TT@2x.png?raw=true) | TT | Trinidad & Tobago |
+| ![TV](Images/TV@2x.png?raw=true) | TV | Tuvalu |
 | ![TW](Images/TW@2x.png?raw=true) | TW | Taiwan |
 | ![TZ](Images/TZ@2x.png?raw=true) | TZ | Tanzania |
 | ![UA](Images/UA@2x.png?raw=true) | UA | Ukraine |
