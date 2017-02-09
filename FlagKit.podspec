@@ -92,9 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.ios.source_files  = "Source/FlagKit.swift", "Source/UIImage.swift"
-  s.tvos.source_files  = "Source/FlagKit.swift", "Source/UIImage.swift"
-  s.osx.source_files  = "Source/FlagKit.swift", "Source/NSImage.swift"
+  s.source_files  = "Source/FlagKit.swift", "Source/Image.swift"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
