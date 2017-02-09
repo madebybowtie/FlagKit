@@ -15,20 +15,20 @@
 #endif
 
 public extension Image {
-#if os(OSX)
+  #if os(OSX)
   public convenience init?(flagImageWithCountryCode countryCode: String) {
     guard let image = FlagKit.assetBundle.image(forResource: countryCode) else {return nil}
     guard let CGImage = image.cgImage(forProposedRect: nil, context: nil, hints: nil) else {return nil}
-    self.init(cgImage:CGImage, size:image.size)
+    self.init(cgImage: CGImage, size: image.size)
   }
-  
-#else
+
+  #else
   public convenience init?(flagImageWithCountryCode countryCode: String) {
-    self.init(named:countryCode, inBundle:FlagKit.assetBundle, compatibleWithTraitCollection:nil)
+  self.init(named: countryCode, in: FlagKit.assetBundle, compatibleWith: nil)
   }
-#endif
+  #endif
 
   public convenience init?(flagImageForSpecialFlag specialFlag: FlagKit.SpecialFlag) {
-    self.init(flagImageWithCountryCode:specialFlag.rawValue)
+    self.init(flagImageWithCountryCode: specialFlag.rawValue)
   }
 }
