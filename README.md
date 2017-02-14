@@ -2,37 +2,20 @@
 
 Beautiful flag icons for usage in apps and on the web.
 
-## Installation (iOS/OSX)
-#### `FlagKit.xcassets`
-Just add `FlagKit.xcassets` to your target.
-#### Carthage
-Add FlagKit to your `Cartfile`:
-```
-github "madebybowtie/FlagKit"
-```
-#### CocoaPods
-Add FlagKit to your `Podfile`:
-```
-pod 'FlagKit'
-```
+## Usage (iOS/tvOS/macOS/watchOS)
+Add `FlagKit.xcassets` to your target.
 
-## Usage (iOS/OSX)
-For OSX, just replace `UIImage` with `NSImage` below
+#### Examples
+For macOS, just replace `UIImage` with `NSImage` below.
 
-Get an icon for your locale or a world flag:
-```swift
-UIImage(flagImageWithCountryCode: NSLocale.autoupdatingCurrentLocale().objectForKey(NSLocaleCountryCode) as! String)
-UIImage(flagImageForSpecialFlag: .World)
-```
-```objc
-[[UIImage alloc] initWithFlagImageWithCountryCode:[[NSLocale autoupdatingCurrentLocale] objectForKey:NSLocaleCountryCode]];
-```
-If you are just adding `FlagKit.xcassets` to you target, you can simply use the standard `UIImage/NSImage` methods:
+Get the image for your locale and get a specific image:
 ```swift
 UIImage(named: NSLocale.autoupdatingCurrentLocale().objectForKey(NSLocaleCountryCode) as! String)
+UIImage(named: "LGBT")
 ```
 ```objc
 [UIImage imageNamed:[[NSLocale autoupdatingCurrentLocale] objectForKey:NSLocaleCountryCode]];
+[UIImage imageNamed:@"LGBT"];
 ```
 
 ## Sketch
