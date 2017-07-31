@@ -1,0 +1,33 @@
+// Inspired by https://github.com/mrackwitz/xcconfigs
+
+// General
+SUPPORTED_PLATFORMS = macosx iphonesimulator iphoneos appletvos appletvsimulator
+
+// macOS
+VALID_ARCHS[sdk=macosx*] = i386 x86_64
+LD_RUNPATH_SEARCH_PATHS[sdk=macosx*] = $(inherited) '@executable_path/../Frameworks' '@loader_path/Frameworks'
+FRAMEWORK_VERSION[sdk=macosx*] = A
+COMBINE_HIDPI_IMAGES[sdk=macosx*] = YES
+ENABLE_BITCODE[sdk=macosx*] = NO
+
+// iOS
+VALID_ARCHS[sdk=iphoneos*] = arm64 armv7 armv7s
+VALID_ARCHS[sdk=iphonesimulator*] = i386 x86_64
+LD_RUNPATH_SEARCH_PATHS[sdk=iphoneos*] = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LD_RUNPATH_SEARCH_PATHS[sdk=iphonesimulator*] = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Developer
+TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*] = 1,2
+TARGETED_DEVICE_FAMILY[sdk=iphone*] = 1,2
+ENABLE_BITCODE[sdk=iphonesimulator*] = YES
+ENABLE_BITCODE[sdk=iphone*] = YES
+
+// tvOS
+VALID_ARCHS[sdk=appletvos*] = arm64
+VALID_ARCHS[sdk=appletvsimulator*] = x86_64
+LD_RUNPATH_SEARCH_PATHS[sdk=appletvos*] = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LD_RUNPATH_SEARCH_PATHS[sdk=appletvsimulator*] = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+TARGETED_DEVICE_FAMILY[sdk=appletvsimulator*] = 3
+TARGETED_DEVICE_FAMILY[sdk=appletv*] = 3
+ENABLE_BITCODE[sdk=appletvsimulator*] = YES
+ENABLE_BITCODE[sdk=appletv*] = YES
+

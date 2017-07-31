@@ -1,0 +1,21 @@
+// Inspired by https://github.com/mrackwitz/xcconfigs
+
+// General
+SUPPORTED_PLATFORMS = macosx iphonesimulator iphoneos appletvos appletvsimulator
+FRAMEWORK_SEARCH_PATHS = $(inherited) '$(PLATFORM_DIR)/Developer/Library/Frameworks'
+
+// macOS
+VALID_ARCHS[sdk=macosx*] = i386 x86_64
+LD_RUNPATH_SEARCH_PATHS[sdk=macosx*] = $(inherited) '@executable_path/../Frameworks' '@loader_path/Frameworks' '@loader_path/../Frameworks'
+
+// iOS
+VALID_ARCHS[sdk=iphoneos*] = arm64 armv7 armv7s
+VALID_ARCHS[sdk=iphonesimulator*] = i386 x86_64
+LD_RUNPATH_SEARCH_PATHS[sdk=iphoneos*] = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LD_RUNPATH_SEARCH_PATHS[sdk=iphonesimulator*] = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+
+// tvOS
+VALID_ARCHS[sdk=appletvos*] = arm64
+VALID_ARCHS[sdk=appletvsimulator*] = x86_64
+LD_RUNPATH_SEARCH_PATHS[sdk=appletvos*] = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LD_RUNPATH_SEARCH_PATHS[sdk=appletvsimulator*] = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
