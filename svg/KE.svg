@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="23px" height="17px" viewBox="0 0 23 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>KE</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F0F0F0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="21" height="15" rx="1.5"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#262626" offset="0%"></stop>
+            <stop stop-color="#0C0C0C" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-6" x="0" y="0" width="21" height="4"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-7">
+            <feMorphology radius="0.25" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-8">
+            <stop stop-color="#018301" offset="0%"></stop>
+            <stop stop-color="#006700" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-9" x="0" y="11" width="21" height="4"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-10">
+            <feMorphology radius="0.25" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-11" x="0" y="4" width="21" height="7"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-12">
+            <feMorphology radius="0.25" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-13">
+            <stop stop-color="#DD0808" offset="0%"></stop>
+            <stop stop-color="#BC0000" offset="100%"></stop>
+        </linearGradient>
+        <path d="M2.5,10.5 C3.5,10.5 5,8.53756612 5,5.5 C5,2.46243388 3.5,0.5 2.5,0.5 C1.5,0.5 0,2.46243388 0,5.5 C0,8.53756612 1.5,10.5 2.5,10.5 Z" id="path-14"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-16">
+            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <path d="M2.5,7 C2.77614237,7 3,6.32842712 3,5.5 C3,4.67157288 2.77614237,4 2.5,4 C2.22385763,4 2,4.67157288 2,5.5 C2,6.32842712 2.22385763,7 2.5,7 Z M2.5,4 C2.77614237,4 3,3.1045695 3,2 C3,0.8954305 2.77614237,0 2.5,0 C2.22385763,0 2,0.8954305 2,2 C2,3.1045695 2.22385763,4 2.5,4 Z M2.5,11 C2.77614237,11 3,10.1045695 3,9 C3,7.8954305 2.77614237,7 2.5,7 C2.22385763,7 2,7.8954305 2,9 C2,10.1045695 2.22385763,11 2.5,11 Z" id="path-17"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-18">
+            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Flag-Kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="KE">
+            <g id="AE-Copy-4" transform="translate(1.000000, 1.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="Mask">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <g id="Rectangle-2" mask="url(#mask-3)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                    <use fill="url(#linearGradient-5)" fill-rule="evenodd" xlink:href="#path-6"></use>
+                </g>
+                <g id="Rectangle-2" mask="url(#mask-3)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                    <use fill="url(#linearGradient-8)" fill-rule="evenodd" xlink:href="#path-9"></use>
+                </g>
+                <g id="Rectangle-2" mask="url(#mask-3)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-11"></use>
+                </g>
+                <rect id="Rectangle-2-Copy-4" fill="url(#linearGradient-13)" mask="url(#mask-3)" x="0" y="5" width="21" height="5"></rect>
+                <g id="Oval-225" mask="url(#mask-3)">
+                    <g transform="translate(8.000000, 2.000000)">
+                        <mask id="mask-15" fill="white">
+                            <use xlink:href="#path-14"></use>
+                        </mask>
+                        <g id="Mask" stroke="none" fill="none">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-16)" xlink:href="#path-14"></use>
+                            <use fill="#BC0000" fill-rule="evenodd" xlink:href="#path-14"></use>
+                        </g>
+                        <ellipse id="Mask-Copy" stroke="none" fill="url(#linearGradient-5)" fill-rule="evenodd" mask="url(#mask-15)" cx="-1.5" cy="5.5" rx="2.5" ry="5.5"></ellipse>
+                        <ellipse id="Mask-Copy-2" stroke="none" fill="url(#linearGradient-5)" fill-rule="evenodd" mask="url(#mask-15)" cx="6.5" cy="5.5" rx="2.5" ry="5.5"></ellipse>
+                        <g id="Oval-228" stroke="none" fill="none" mask="url(#mask-15)">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-18)" xlink:href="#path-17"></use>
+                            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-17"></use>
+                        </g>
+                    </g>
+                </g>
+                <rect id="Depth" mask="url(#mask-3)" x="0" y="0" width="21" height="15" rx="1.5"></rect>
+            </g>
+            <path d="M13.5,4 C13.7761424,4 14,3.77614237 14,3.5 C14,3.22385763 13.7761424,3 13.5,3 C13.2238576,3 13,3.22385763 13,3.5 C13,3.77614237 13.2238576,4 13.5,4 Z M9.5,4 C9.77614237,4 10,3.77614237 10,3.5 C10,3.22385763 9.77614237,3 9.5,3 C9.22385763,3 9,3.22385763 9,3.5 C9,3.77614237 9.22385763,4 9.5,4 Z M13.5,14 C13.7761424,14 14,13.7761424 14,13.5 C14,13.2238576 13.7761424,13 13.5,13 C13.2238576,13 13,13.2238576 13,13.5 C13,13.7761424 13.2238576,14 13.5,14 Z M9.5,14 C9.77614237,14 10,13.7761424 10,13.5 C10,13.2238576 9.77614237,13 9.5,13 C9.22385763,13 9,13.2238576 9,13.5 C9,13.7761424 9.22385763,14 9.5,14 Z" id="Oval-231" fill="url(#linearGradient-1)"></path>
+        </g>
+    </g>
+</svg>

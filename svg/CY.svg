@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="23px" height="17px" viewBox="0 0 23 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>CY</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F0F0F0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="21" height="15" rx="1.5"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#E7832B" offset="0%"></stop>
+            <stop stop-color="#D7751F" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-6" x="0" y="0" width="21" height="15" rx="1.5"></rect>
+    </defs>
+    <g id="Flag-Kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CY">
+            <g id="Rectangle-1-Copy-3" transform="translate(1.000000, 1.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="Mask">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <path d="M15.546814,2.22659302 C15.7971017,2.10144915 15.8773804,2.18392944 15.7267456,2.40988159 L15.2732544,3.09011841 C15.1223402,3.31648976 14.8160706,3.62261963 14.5901184,3.77325439 L13.9098816,4.22674561 C13.6835102,4.37765984 13.3417969,4.65820312 13.1473122,4.85268784 L13.3526878,4.64731216 C13.1579037,4.84209628 13.15625,5.15625 13.3497515,5.34975147 L13.6502485,5.65024853 C13.8434109,5.84341093 13.84375,6.15625 13.6502485,6.34975147 L13.3497515,6.65024853 C13.1565891,6.84341093 12.8071899,6.90359497 12.546814,6.77340698 L12.453186,6.72659302 C12.2028983,6.60144915 11.903595,6.69281006 11.773407,6.95318604 L11.726593,7.04681396 C11.6014491,7.2971017 11.2914314,7.56952286 11.0253906,7.65820312 L10.4746094,7.84179688 C10.2124899,7.92917005 9.76806641,8 9.5,8 L9.5,8 C9.22385763,8 8.90359497,8.19281006 8.77340698,8.45318604 L8.72659302,8.54681396 C8.60144915,8.7971017 8.30092049,8.90046024 8.05613518,8.77806759 L6.94386482,8.22193241 C6.69872505,8.09936253 6.34375,7.84375 6.15024853,7.65024853 L5.84975147,7.34975147 C5.65658907,7.15658907 5.5,6.76806641 5.5,6.5 L5.5,6.5 C5.5,6.22385763 5.72659302,6 6,6 L5.5,6 C5.77614237,6 6.15625,5.84375 6.34975147,5.65024853 L6.65024853,5.34975147 C6.84341093,5.15658907 7.23193359,5 7.5,5 L7.5,5 C7.77614237,5 8.06952286,4.79143143 8.15820312,4.52539062 L8.34179688,3.97460938 C8.42917005,3.71248986 8.71314859,3.54262972 8.98202515,3.59640503 L10.5179749,3.90359497 C10.78419,3.956838 11.214035,3.94649124 11.4841442,3.87896395 L12.5158558,3.62103605 C12.7832413,3.55418969 13.1928101,3.40359497 13.453186,3.27340698 L13.546814,3.22659302 C13.7971017,3.10144915 14.1928101,2.90359497 14.453186,2.77340698 L14.546814,2.72659302 C14.7971017,2.60144915 15.1928101,2.40359497 15.453186,2.27340698 L15.546814,2.22659302 Z" id="Line" fill="url(#linearGradient-5)" mask="url(#mask-3)"></path>
+                <circle id="Oval-81" fill="#445128" mask="url(#mask-3)" cx="10.5" cy="11.5" r="0.5"></circle>
+                <path d="M12,11 C12,11 13.5,10.5 14,9.5" id="Line" stroke="#445128" stroke-linecap="round" opacity="0.75" mask="url(#mask-3)"></path>
+                <path d="M7,11 C7,11 8.5,10.5 9,9.5" id="Line" stroke="#445128" stroke-linecap="round" opacity="0.75" mask="url(#mask-3)" transform="translate(8.000000, 10.250000) scale(-1, 1) translate(-8.000000, -10.250000) "></path>
+                <mask id="mask-7" fill="white">
+                    <use xlink:href="#path-6"></use>
+                </mask>
+                <g id="Depth"></g>
+            </g>
+        </g>
+    </g>
+</svg>

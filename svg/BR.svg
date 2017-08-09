@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="23px" height="17px" viewBox="0 0 23 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>BR</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F0F0F0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="21" height="15" rx="1.5"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#04AC41" offset="0%"></stop>
+            <stop stop-color="#019C39" offset="100%"></stop>
+        </linearGradient>
+        <path d="M2.42151632,7.77274586 C2.18871929,7.62211248 2.19350487,7.37479097 2.42151632,7.22725414 L10.0784837,2.27274586 C10.3112807,2.12211248 10.6935049,2.12520903 10.9215163,2.27274586 L18.5784837,7.22725414 C18.8112807,7.37788752 18.8064951,7.62520903 18.5784837,7.77274586 L10.9215163,12.7272541 C10.6887193,12.8778875 10.3064951,12.874791 10.0784837,12.7272541 L2.42151632,7.77274586 Z" id="path-6"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-8">
+            <stop stop-color="#043087" offset="0%"></stop>
+            <stop stop-color="#012877" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-9" cx="3.5" cy="3.5" r="3.5"></circle>
+    </defs>
+    <g id="Flag-Kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BR">
+            <g id="BO-Copy" transform="translate(1.000000, 1.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="Mask">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <rect id="Mask-Copy" fill="url(#linearGradient-5)" mask="url(#mask-3)" x="0" y="0" width="21" height="15"></rect>
+                <g id="Rectangle-60" mask="url(#mask-3)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                    <use fill="#FDD216" fill-rule="evenodd" xlink:href="#path-6"></use>
+                </g>
+                <g id="Oval-2" mask="url(#mask-3)">
+                    <g transform="translate(7.000000, 4.000000)">
+                        <mask id="mask-10" fill="white">
+                            <use xlink:href="#path-9"></use>
+                        </mask>
+                        <use id="Mask" stroke="none" fill="url(#linearGradient-8)" fill-rule="evenodd" xlink:href="#path-9"></use>
+                        <path d="M-0.5,3 C0,2.50000002 1.80761719,2.73388676 3.5,3.00000001 C5.19238281,3.26611325 7.00609166,4.00609174 7.5,4.5" id="Line" stroke="#FFFFFF" stroke-width="1" stroke-linecap="square" fill="none" mask="url(#mask-10)" transform="translate(3.500000, 3.603148) rotate(6.000000) translate(-3.500000, -3.603148) "></path>
+                    </g>
+                </g>
+                <rect id="Depth" mask="url(#mask-3)" x="0" y="0" width="21" height="15" rx="1.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
