@@ -1,0 +1,10 @@
+language: objective-c
+osx_image: xcode8.3
+
+env:
+  - "DESTINATION='platform=iOS Simulator,name=iPhone 7' ACTION=test"
+  - "DESTINATION='platform=OS X' ACTION=test"
+  - "DESTINATION='platform=tvOS Simulator,name=Apple TV 1080p' ACTION=test"
+
+script:
+  - set -o pipefail && xcodebuild -project Sources/Swift/FlagKit.xcodeproj -scheme FlagKit -destination "$DESTINATION" $ACTION | xcpretty
