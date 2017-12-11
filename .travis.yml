@@ -1,8 +1,8 @@
 language: objective-c
-osx_image: xcode8.3
+osx_image: xcode9.2
 
 env:
-  - "DESTINATION='platform=iOS Simulator,name=iPhone 7' ACTION=test"
+  - "DESTINATION='platform=iOS Simulator,name=iPhone 8' ACTION=test"
   - "DESTINATION='platform=OS X' ACTION=test"
   - "DESTINATION='platform=tvOS Simulator,name=Apple TV 1080p' ACTION=test"
 
