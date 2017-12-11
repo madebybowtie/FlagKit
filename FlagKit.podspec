@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "FlagKit"
-  s.version = "2.0.1"
+  s.version = "2.1.0"
   s.summary = "Beautiful flag icons for usage in apps and on the web."
 
   s.homepage = "https://github.com/madebybowtie/FlagKit"
