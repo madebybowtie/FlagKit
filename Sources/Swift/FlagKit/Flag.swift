@@ -15,18 +15,18 @@ public class Flag: NSObject {
     /**
      Country code of the flag
      */
-    public let countryCode: String
+    @objc public let countryCode: String
 
 #if os(iOS) || os(tvOS)
     /**
      Original unstyled flag image
      */
-    public let originalImage: UIImage
+    @objc public let originalImage: UIImage
     
     /**
      Returns a flag if the country code is supported, otherwise it returns nil
      */
-    public init?(countryCode: String) {
+    @objc public init?(countryCode: String) {
         guard let image = UIImage(named: countryCode, in: FlagKit.assetBundle, compatibleWith: nil) else {
             return nil
         }
@@ -39,7 +39,7 @@ public class Flag: NSObject {
      Returns a styled flag according to the provided style
      - parameter style: Desired flag style
      */
-    public func image(style: FlagStyle) -> UIImage {
+    @objc public func image(style: FlagStyle) -> UIImage {
         return originalImage.rendereredImage(size: style.size, action: { (context) in
             switch style {
             case .none:
@@ -60,13 +60,13 @@ public class Flag: NSObject {
     /**
      Original unstyled flag image
      */
-    public let originalImage: NSImage
+    @objc public let originalImage: NSImage
     
     /**
      Returns a flag if the country code is supported, otherwise it returns nil
      */
-    public init?(countryCode: String) {
-        guard let image = FlagKit.assetBundle.image(forResource: countryCode) else {
+    @objc public init?(countryCode: String) {
+        guard let image = FlagKit.assetBundle.image(forResource: NSImage.Name(countryCode)) else {
             return nil
         }
         

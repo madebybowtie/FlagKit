@@ -31,7 +31,13 @@ class FlagTests: XCTestCase {
     func testRoundedRectImage() {
         let generated = Flag(countryCode: "SE")?.image(style: .roundedRect)
         XCTAssertNotNil(generated)
-        
+      
+        let file = UIImagePNGRepresentation(generated!)
+      
+        let dir = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!.appending("flag.png")
+      
+      try! file?.write(to: URL(fileURLWithPath: dir))
+      
         let fixture = fixtureImage(named: "se-roundedrect")
         XCTAssertImageEqual(generated!, fixture)
     }
