@@ -62,5 +62,19 @@ class FlagTests: XCTestCase {
         let bundle = Bundle(for: FlagTests.self)
         return UIImage(named: name, in: bundle, compatibleWith: nil)!
     }
+  
+    func testCountryCode() {
+        let generated = Flag(countryCode: "se")
+        XCTAssertNotNil(generated)
+        
+        let generated1 = Flag(countryCode: "Se")
+        XCTAssertNotNil(generated1)
+        
+        let generated2 = Flag(countryCode: "sE")
+        XCTAssertNotNil(generated2)
+        
+        let generated3 = Flag(countryCode: " sE ")
+        XCTAssertNotNil(generated3)
+    }
 #endif
 }
