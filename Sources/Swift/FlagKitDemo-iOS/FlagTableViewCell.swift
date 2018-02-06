@@ -12,10 +12,10 @@ class FlagTableViewCell: UITableViewCell {
         
         backgroundColor = UIColor.clear
         
-        textLabel?.font = UIFont.systemFont(ofSize: 15, weight: UIFontWeightMedium)
+        textLabel?.font = UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.medium)
         textLabel?.textColor = UIColor(red: 0.00, green: 0.15, blue: 0.16, alpha: 1.0)
         
-        detailTextLabel?.font = UIFont.systemFont(ofSize: 13, weight: UIFontWeightLight)
+        detailTextLabel?.font = UIFont.systemFont(ofSize: 13, weight: UIFont.Weight.light)
         detailTextLabel?.textColor = UIColor(red: 0.00, green: 0.15, blue: 0.16, alpha: 1.0)
         
         imageView?.contentMode = .center
