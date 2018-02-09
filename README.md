@@ -65,6 +65,11 @@ let bundle = FlagKit.assetBundle
 let originalImage = UIImage(named: countryCode, in: bundle, compatibleWith: nil)
 ```
 
+You can also create Flag instance using flag() extension of String
+```swift
+let flag = "PH".flag()
+```
+
 ## Reference
 
 FlagKit provides over 250 flags. A list of all flags can be [found here](Assets/Flags.md).
