@@ -29,6 +29,8 @@
 		3AF78CEE1F31CE0400BD3D10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF78CEC1F31CE0400BD3D10 /* LaunchScreen.storyboard */; };
 		3AF78CF31F31CF9100BD3D10 /* FlagKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A49DD811F2F63F90007E46E /* FlagKit.framework */; };
 		3AF78CF41F31CF9100BD3D10 /* FlagKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A49DD811F2F63F90007E46E /* FlagKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6A21AF87202D544000102C33 /* String+Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A21AF86202D544000102C33 /* String+Flag.swift */; };
+		6A21AF89202D55BC00102C33 /* String+FlagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A21AF88202D55BC00102C33 /* String+FlagTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +92,8 @@
 		3AF78CEA1F31CE0400BD3D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AF78CED1F31CE0400BD3D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AF78CEF1F31CE0400BD3D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A21AF86202D544000102C33 /* String+Flag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Flag.swift"; sourceTree = "<group>"; };
+		6A21AF88202D55BC00102C33 /* String+FlagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+FlagTests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,7 @@
 				3A49DD8A1F2F64BC0007E46E /* FlagKitFramework.xcconfig */,
 				3A49DD841F2F63F90007E46E /* FlagKit.h */,
 				3A49DD851F2F63F90007E46E /* Info.plist */,
+				6A21AF86202D544000102C33 /* String+Flag.swift */,
 			);
 			path = FlagKit;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 				3A5987A81F306C390097DB64 /* FlagKitTests.xcconfig */,
 				3A5987A11F306C260097DB64 /* Info.plist */,
 				3ACCEF1A1F38B2CB00B7CA85 /* Fixtures.xcassets */,
+				6A21AF88202D55BC00102C33 /* String+FlagTests.swift */,
 			);
 			path = FlagKitTests;
 			sourceTree = "<group>";
@@ -337,6 +343,7 @@
 				3ACCEF251F39983D00B7CA85 /* Flag.swift in Sources */,
 				3A8B39B41F39D8AB00D75099 /* FlagStyle.swift in Sources */,
 				3A49DD951F2F6F010007E46E /* NSImage.swift in Sources */,
+				6A21AF87202D544000102C33 /* String+Flag.swift in Sources */,
 				3A49DD901F2F6B760007E46E /* UIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A21AF89202D55BC00102C33 /* String+FlagTests.swift in Sources */,
 				3A5987A01F306C260097DB64 /* FlagKitTests.swift in Sources */,
 				3ACCEF291F39B32B00B7CA85 /* ObjectiveCTests.m in Sources */,
 				3A5987AA1F306CF20097DB64 /* Matchers.swift in Sources */,

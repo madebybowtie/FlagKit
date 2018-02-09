@@ -27,8 +27,7 @@ public class Flag: NSObject {
      Returns a flag if the country code is supported, otherwise it returns nil
      */
     @objc public init?(countryCode: String) {
-        let cCode = countryCode.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
-        guard let image = UIImage(named: cCode, in: FlagKit.assetBundle, compatibleWith: nil) else {
+        guard let image = UIImage(named: countryCode, in: FlagKit.assetBundle, compatibleWith: nil) else {
             return nil
         }
         
