@@ -265,13 +265,13 @@
 				TargetAttributes = {
 					3A49DD801F2F63F90007E46E = {
 						CreatedOnToolsVersion = 8.3.2;
-						ProvisioningStyle = Automatic;
 						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
 					};
 					3A59879C1F306C260097DB64 = {
 						CreatedOnToolsVersion = 8.3.2;
-						ProvisioningStyle = Automatic;
 						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
 					};
 					3AF78CE01F31CE0400BD3D10 = {
 						CreatedOnToolsVersion = 8.3.2;
