@@ -32,7 +32,7 @@ class FlagTests: XCTestCase {
         let generated = Flag(countryCode: "SE")?.image(style: .roundedRect)
         XCTAssertNotNil(generated)
       
-        let file = UIImagePNGRepresentation(generated!)
+        let file = generated!.pngData()
       
         let dir = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!.appending("flag.png")
       
