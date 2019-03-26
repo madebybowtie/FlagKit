@@ -7,7 +7,7 @@ import UIKit
 class FlagTableViewCell: UITableViewCell {
     static let identifier = "FlagTableViewCell"
     
-    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: .value1, reuseIdentifier: reuseIdentifier)
         
         backgroundColor = UIColor.clear

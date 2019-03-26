@@ -66,7 +66,7 @@ public class Flag: NSObject {
      Returns a flag if the country code is supported, otherwise it returns nil
      */
     @objc public init?(countryCode: String) {
-        guard let image = FlagKit.assetBundle.image(forResource: NSImage.Name(countryCode)) else {
+        guard let image = FlagKit.assetBundle.image(forResource: countryCode) else {
             return nil
         }
         
