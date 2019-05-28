@@ -78,11 +78,11 @@ This set currently includes the 255 flags below:
 | <img src='PNG/FR@2x.png?raw=true' width='21' height='15'> | FR | France
 | <img src='PNG/GA@2x.png?raw=true' width='21' height='15'> | GA | Gabon
 | <img src='PNG/GB@2x.png?raw=true' width='21' height='15'> | GB | United Kingdom
-| <img src='PNG/GB-ENG@2x.png?raw=true' width='21' height='15'> | GB-ENG | United Kingdom
-| <img src='PNG/GB-NIR@2x.png?raw=true' width='21' height='15'> | GB-NIR | United Kingdom
-| <img src='PNG/GB-SCT@2x.png?raw=true' width='21' height='15'> | GB-SCT | United Kingdom
-| <img src='PNG/GB-WLS@2x.png?raw=true' width='21' height='15'> | GB-WLS | United Kingdom
-| <img src='PNG/GB-ZET@2x.png?raw=true' width='21' height='15'> | GB-ZET | United Kingdom
+| <img src='PNG/GB-ENG@2x.png?raw=true' width='21' height='15'> | GB-ENG | England
+| <img src='PNG/GB-NIR@2x.png?raw=true' width='21' height='15'> | GB-NIR | Northern Ireland
+| <img src='PNG/GB-SCT@2x.png?raw=true' width='21' height='15'> | GB-SCT | Scotland
+| <img src='PNG/GB-WLS@2x.png?raw=true' width='21' height='15'> | GB-WLS | Wales
+| <img src='PNG/GB-ZET@2x.png?raw=true' width='21' height='15'> | GB-ZET | Shetland
 | <img src='PNG/GD@2x.png?raw=true' width='21' height='15'> | GD | Grenada
 | <img src='PNG/GE@2x.png?raw=true' width='21' height='15'> | GE | Georgia
 | <img src='PNG/GF@2x.png?raw=true' width='21' height='15'> | GF | French Guiana
