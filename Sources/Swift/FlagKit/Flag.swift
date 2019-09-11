@@ -17,6 +17,18 @@ public class Flag: NSObject {
      */
     @objc public let countryCode: String
 
+    @objc public var emoji: String? {
+        let base = 127397
+        var usv = String.UnicodeScalarView()
+        countryCode.utf16.forEach {
+            if let unicode = UnicodeScalar(base + Int($0)) {
+                usv.append(unicode)
+            }
+        }
+        let emoji = String(usv)
+        return emoji.count == 1 ? emoji : nil
+    }
+
 #if os(iOS) || os(tvOS)
     /**
      Original unstyled flag image
