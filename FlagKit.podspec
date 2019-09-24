@@ -2,6 +2,7 @@ Pod::Spec.new do |s|
   s.name = "FlagKit"
   s.version = "2.2"
   s.summary = "Beautiful flag icons for usage in apps and on the web."
+  s.swift_versions = ['3.2', '4.0', '4.2', '5.0']
 
   s.homepage = "https://github.com/madebybowtie/FlagKit"
   s.license = { :type => "MIT", :file => "LICENSE" }
