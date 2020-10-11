@@ -31,3 +31,7 @@ DerivedData
 # Carthage/Checkouts
 
 Carthage/Build
+
+# SPM
+.swiftpm
+.build/
