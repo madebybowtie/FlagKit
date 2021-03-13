@@ -22,6 +22,13 @@ Beautiful flag icons for usage in apps and on the web. All flags are provided as
 
 FlagKit provides a framework for easy installation as a dependency. You can also manually copy the Asset Catalog into your project.
 
+### SwiftPM
+Add the folowinig as repository URL:
+
+```
+https://github.com/madebybowtie/FlagKit.git
+```
+
 ### Carthage
 Add the following line to your `Cartfile`:
 
