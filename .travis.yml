@@ -7,4 +7,4 @@ env:
   - "DESTINATION='OS=12.2,platform=tvOS Simulator,name=Apple TV' ACTION=test"
 
 script:
-  - set -o pipefail && xcodebuild -project Sources/Swift/FlagKit.xcodeproj -scheme FlagKit -destination "$DESTINATION" $ACTION | xcpretty
+  - set -o pipefail && xcodebuild -project Sources/FlagKit.xcodeproj -scheme FlagKit -destination "$DESTINATION" $ACTION | xcpretty

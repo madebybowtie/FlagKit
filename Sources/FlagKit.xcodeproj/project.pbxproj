@@ -67,7 +67,7 @@
 		3A49DD841F2F63F90007E46E /* FlagKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlagKit.h; sourceTree = "<group>"; };
 		3A49DD851F2F63F90007E46E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A49DD8A1F2F64BC0007E46E /* FlagKitFramework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = FlagKitFramework.xcconfig; sourceTree = "<group>"; };
-		3A49DD8D1F2F665E0007E46E /* FlagKit.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = FlagKit.xcassets; path = ../../../Assets/FlagKit.xcassets; sourceTree = "<group>"; };
+		3A49DD8D1F2F665E0007E46E /* FlagKit.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FlagKit.xcassets; sourceTree = "<group>"; };
 		3A49DD8F1F2F6B760007E46E /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		3A49DD921F2F6C1F0007E46E /* FlagKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagKit.swift; sourceTree = "<group>"; };
 		3A49DD941F2F6F010007E46E /* NSImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };

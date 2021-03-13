@@ -59,7 +59,11 @@ class FlagTests: XCTestCase {
     }
     
     func fixtureImage(named name: String) -> UIImage {
+        #if SWIFT_PACKAGE
+        let bundle = Bundle.module
+        #else
         let bundle = Bundle(for: FlagTests.self)
+        #endif
         return UIImage(named: name, in: bundle, compatibleWith: nil)!
     }
 #endif

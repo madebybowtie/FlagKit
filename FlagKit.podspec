@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = "10.0"
 
   s.source = { :git => "https://github.com/madebybowtie/FlagKit.git", :tag => "v#{s.version}" }
-  s.source_files = "Sources/Swift/FlagKit/*.swift"
-  s.resource = "Assets/FlagKit.xcassets"
+  s.source_files = "Sources/FlagKit/*.swift"
+  s.resource = "Sources/FlagKit/FlagKit.xcassets"
 end
