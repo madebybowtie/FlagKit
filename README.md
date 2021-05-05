@@ -71,6 +71,8 @@ let countryCode = Locale.current.regionCode!
 let bundle = FlagKit.assetBundle
 let originalImage = UIImage(named: countryCode, in: bundle, compatibleWith: nil)
 ```
+## Usage (web)
+To get started with these svgs on the web use the [flagkit-web](https://github.com/dfenstermaker/flagkit-web) library. Install via ```npm i flagkit-web```. 
 
 ## Reference
 
