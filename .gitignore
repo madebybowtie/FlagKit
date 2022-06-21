@@ -35,3 +35,6 @@ Carthage/Build
 # SPM
 .swiftpm
 .build/
+
+# macOS specific
+.DS_Store
