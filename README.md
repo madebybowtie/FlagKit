@@ -8,10 +8,6 @@
 <a href="https://github.com/Carthage/Carthage" target="_blank">
 <img src="https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg?style=flat" />
 </a>
-
-<a href="https://cocoapods.org/pods/FlagKit" target="_blank">
-<img src="https://img.shields.io/cocoapods/v/FlagKit.svg?style=flat" />
-</a>
 </div>
 
 # FlagKit
@@ -34,13 +30,6 @@ Add the following line to your `Cartfile`:
 
 ```
 github "madebybowtie/FlagKit"
-```
-
-### CocoaPods
-Add the following line to your `Podfile`:
-
-```
-pod 'FlagKit'
 ```
 
 ### Manual
