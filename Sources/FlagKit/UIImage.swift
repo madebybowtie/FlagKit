@@ -2,7 +2,7 @@
 //  Copyright © 2017 Bowtie. All rights reserved.
 //
 
-#if os(iOS) || os(tvOS)
+#if os(iOS) || os(tvOS) || os(visionOS)
 
 import UIKit
 
