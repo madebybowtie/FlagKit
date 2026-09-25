@@ -13,12 +13,12 @@
             <stop stop-color="#0D0D0D" offset="100%"></stop>
         </linearGradient>
         <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
-            <stop stop-color="#E32139" offset="0%"></stop>
-            <stop stop-color="#CC162C" offset="100%"></stop>
-        </linearGradient>
-        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
             <stop stop-color="#128A49" offset="0%"></stop>
             <stop stop-color="#0F7A40" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#E32139" offset="0%"></stop>
+            <stop stop-color="#CC162C" offset="100%"></stop>
         </linearGradient>
     </defs>
     <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -27,8 +27,9 @@
             <rect id="Rectangle-2" fill="url(#linearGradient-2)" x="0" y="10" width="21" height="5"></rect>
             <rect id="Rectangle-2" fill="url(#linearGradient-3)" x="0" y="0" width="21" height="5"></rect>
             <rect id="Rectangle-2" fill="url(#linearGradient-1)" x="0" y="5" width="21" height="5"></rect>
-            <polygon id="Star-33" fill="url(#linearGradient-4)" points="7 8.31999999 5.8244295 9.11803399 6.22013366 7.75339393 5.09788697 6.88196601 6.5180161 6.83660607 7 5.5 7.4819839 6.83660607 8.90211303 6.88196601 7.77986634 7.75339393 8.1755705 9.11803399"></polygon>
-            <polygon id="Star-33" fill="url(#linearGradient-4)" points="14 8.31999999 12.8244295 9.11803399 13.2201337 7.75339393 12.097887 6.88196601 13.5180161 6.83660607 14 5.5 14.4819839 6.83660607 15.902113 6.88196601 14.7798663 7.75339393 15.1755705 9.11803399"></polygon>
+            <polygon id="Star-33" fill="url(#linearGradient-4)" points="5.25 8.32 4.0744295 9.118034 4.4701337 7.7533939 3.347887 6.881966 4.7680161 6.8366061 5.25 5.5 5.7319839 6.8366061 7.152113 6.881966 6.0298663 7.7533939 6.4255705 9.118034"></polygon>
+            <polygon id="Star-33" fill="url(#linearGradient-4)" points="10.5 8.32 9.3244295 9.118034 9.7201337 7.7533939 8.597887 6.881966 10.018016 6.8366061 10.5 5.5 10.981984 6.8366061 12.402113 6.881966 11.279866 7.7533939 11.67557 9.118034"></polygon>
+            <polygon id="Star-33" fill="url(#linearGradient-4)" points="15.75 8.32 14.57443 9.118034 14.970134 7.7533939 13.847887 6.881966 15.268016 6.8366061 15.75 5.5 16.231984 6.8366061 17.652113 6.881966 16.529866 7.7533939 16.92557 9.118034"></polygon>
         </g>
     </g>
 </svg>
